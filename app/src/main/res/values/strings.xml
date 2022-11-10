@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">UAS_MobileApp</string>
+    <string name="table_layout_4_open">tabel_lay_4</string>
+    <string name="table_layout_4_open_shortcut">tabel_lay_4</string>
+    <string name="table_layout_4_save">tabel_lay_4</string>
+    <string name="table_layout_4_save_shortcut">tabel_lay_4</string>
+
+
+
 </resources>
