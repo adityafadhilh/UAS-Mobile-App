@@ -16,8 +16,8 @@
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name=".Login"
-            android:exported="false" />
+            android:name="id.ac.umn.uas_mobileapp.Login"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
