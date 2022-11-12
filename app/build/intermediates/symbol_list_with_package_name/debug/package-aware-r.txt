@@ -1758,6 +1758,7 @@ color purple_200
 color purple_500
 color purple_700
 color radiobutton_themeable_attribute_color
+color red
 color ripple_material_dark
 color ripple_material_light
 color secondary_text_default_material_dark
@@ -2606,6 +2607,7 @@ id autoCompleteToEnd
 id autoCompleteToStart
 id barrier
 id baseline
+id batal
 id beginOnFirstDraw
 id beginning
 id bestChoice
@@ -2645,6 +2647,7 @@ id closest
 id collapseActionView
 id compress
 id confirm_button
+id confirm_pass
 id constraint
 id container
 id content
@@ -2658,6 +2661,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id daftar
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2823,6 +2827,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nama_pengguna
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2867,6 +2872,7 @@ id radio
 id ratio
 id rectangles
 id register
+id register_pass
 id reverseSawtooth
 id right
 id rightToLeft

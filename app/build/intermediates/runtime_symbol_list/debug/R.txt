@@ -1757,6 +1757,7 @@ int color purple_200 0x7f050245
 int color purple_500 0x7f050246
 int color purple_700 0x7f050247
 int color radiobutton_themeable_attribute_color 0x7f050248
+int color red 0x7f05025d
 int color ripple_material_dark 0x7f050249
 int color ripple_material_light 0x7f05024a
 int color secondary_text_default_material_dark 0x7f05024b
@@ -2605,6 +2606,7 @@ int id autoCompleteToEnd 0x7f080055
 int id autoCompleteToStart 0x7f080056
 int id barrier 0x7f080057
 int id baseline 0x7f080058
+int id batal 0x7f0801ec
 int id beginOnFirstDraw 0x7f080059
 int id beginning 0x7f08005a
 int id bestChoice 0x7f08005b
@@ -2644,6 +2646,7 @@ int id closest 0x7f08007c
 int id collapseActionView 0x7f08007d
 int id compress 0x7f08007e
 int id confirm_button 0x7f08007f
+int id confirm_pass 0x7f0801ed
 int id constraint 0x7f080080
 int id container 0x7f080081
 int id content 0x7f080082
@@ -2657,6 +2660,7 @@ int id currentState 0x7f080089
 int id custom 0x7f08008a
 int id customPanel 0x7f08008b
 int id cut 0x7f08008c
+int id daftar 0x7f0801ee
 int id date_picker_actions 0x7f08008d
 int id decelerate 0x7f08008e
 int id decelerateAndComplete 0x7f08008f
@@ -2822,6 +2826,7 @@ int id mtrl_picker_text_input_range_start 0x7f08012e
 int id mtrl_picker_title_text 0x7f08012f
 int id mtrl_view_tag_bottom_padding 0x7f080130
 int id multiply 0x7f080131
+int id nama_pengguna 0x7f0801ef
 int id navigation_bar_item_active_indicator_view 0x7f080132
 int id navigation_bar_item_icon_container 0x7f080133
 int id navigation_bar_item_icon_view 0x7f080134
@@ -2866,6 +2871,7 @@ int id radio 0x7f08015a
 int id ratio 0x7f08015b
 int id rectangles 0x7f08015c
 int id register 0x7f08015d
+int id register_pass 0x7f0801f0
 int id reverseSawtooth 0x7f08015e
 int id right 0x7f08015f
 int id rightToLeft 0x7f080160

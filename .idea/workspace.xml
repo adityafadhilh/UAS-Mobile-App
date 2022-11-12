@@ -10,27 +10,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d7a6b2-f7cb-4bc7-b4ee-efde05debdf5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/id/ac/umn/uas_mobileapp/BuildConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Fadhil\.android\avd\Nexus_5_API_25.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\Fadhil\.android\avd\Pixel_3_API_25.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -84,6 +75,9 @@
       <recent name="C:\Users\Fadhil\OneDrive\Documents\Programming\MobileAppProgramming\UAS-Mobile-App\app\src\main\res\drawable" />
     </key>
     <key name="android.template.-264749830">
+      <recent name="id.ac.umn.uas_mobileapp" />
+    </key>
+    <key name="android.template.984603820">
       <recent name="id.ac.umn.uas_mobileapp" />
     </key>
   </component>
