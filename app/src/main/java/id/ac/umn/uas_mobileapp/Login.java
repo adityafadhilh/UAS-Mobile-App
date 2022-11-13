@@ -51,24 +51,27 @@ public class Login extends AppCompatActivity {
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // login data masih manual
                 userStr = username.getText().toString();
                 passStr = password.getText().toString();
-                if(userStr.equals(userCheck)){
-                    if(passStr.equals(passCheck)){
-                        Intent i = new Intent(getApplicationContext(), MainActivity.class);
-                        Bundle bundle = new Bundle();
-                        bundle.putString("user", userStr);
-                        bundle.putString("pass", passStr);
-                        i.putExtras(bundle);
-                        startActivity(i);
-                    }else{
-                        Toast.makeText(Login.this, "username atau password salah", Toast.LENGTH_SHORT).show();
-                    }
-                }else{
-                    Toast.makeText(Login.this, "username atau password salah", Toast.LENGTH_SHORT).show();
-                }
+                checkLogin(userStr, passStr);
             }
         });
+    }
+
+    public void checkLogin(String username, String password) {
+        if(username.equals(userCheck)){
+            if(password.equals(passCheck)){
+                Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                Bundle bundle = new Bundle();
+                bundle.putString("user", userStr);
+                bundle.putString("pass", passStr);
+                i.putExtras(bundle);
+                startActivity(i);
+            }else{
+                Toast.makeText(Login.this, "username atau password salah", Toast.LENGTH_SHORT).show();
+            }
+        }else{
+            Toast.makeText(Login.this, "username atau password salah", Toast.LENGTH_SHORT).show();
+        }
     }
 }
