@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.util.Objects;
@@ -34,13 +35,12 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        userStr = username.getText().toString();
-        passStr = password.getText().toString();
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 // login data masih manual
+                userStr = username.getText().toString();
+                passStr = password.getText().toString();
                 if(userStr == "john doe"){
                     if(passStr == "test"){
                         Intent i = new Intent(getApplicationContext(), MainActivity.class);
