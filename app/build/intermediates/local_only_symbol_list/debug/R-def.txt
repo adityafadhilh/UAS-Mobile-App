@@ -25,6 +25,7 @@ id logo
 id nama_pengguna
 id register
 id register_pass
+id textDaftar
 id textView
 layout activity_login
 layout activity_main

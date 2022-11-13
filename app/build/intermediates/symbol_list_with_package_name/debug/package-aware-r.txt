@@ -2961,6 +2961,7 @@ id test_radiobutton_android_button_tint
 id test_radiobutton_app_button_tint
 id text
 id text2
+id textDaftar
 id textEnd
 id textSpacerNoButtons
 id textSpacerNoTitle
