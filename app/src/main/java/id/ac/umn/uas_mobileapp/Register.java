@@ -7,10 +7,12 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class Register extends AppCompatActivity {
     EditText username, password, confirmPass;
     Button batal, register;
+    String userStr, passStr,confirmPassStr;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,28 @@ public class Register extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Login.class);
                 startActivity(intent);
+            }
+        });
+
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                userStr = username.getText().toString();
+                passStr = password.getText().toString();
+                confirmPassStr = confirmPass.getText().toString();
+
+                if(!confirmPassStr.equals(passStr)){
+                    Toast.makeText(Register.this, "Konfirmasi sandi harus sama dengan sandi", Toast.LENGTH_SHORT).show();
+                }else{
+                    Intent i = new Intent(getApplicationContext(), Login.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString("username", userStr);
+                    bundle.putString("pass", passStr);
+                    i.putExtras(bundle);
+                    startActivity(i);
+                }
+
+
             }
         });
     }
