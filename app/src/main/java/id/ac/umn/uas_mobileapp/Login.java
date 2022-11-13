@@ -41,8 +41,8 @@ public class Login extends AppCompatActivity {
                 // login data masih manual
                 userStr = username.getText().toString();
                 passStr = password.getText().toString();
-                if(userStr == "john doe"){
-                    if(passStr == "test"){
+                if(userStr.equals("john doe")){
+                    if(passStr.equals("test")){
                         Intent i = new Intent(getApplicationContext(), MainActivity.class);
                         Bundle bundle = new Bundle();
                         bundle.putString("user", userStr);
