@@ -1,10 +1,12 @@
 R_DEF: Internal format may change without notice
 local
+array saldo
 color black
 color blue
 color crimson
 color cyan
 color green
+color grey
 color purple_200
 color purple_500
 color purple_700
@@ -12,6 +14,7 @@ color red
 color teal_200
 color teal_700
 color white
+color yellow
 drawable akomodasi
 drawable ic_baseline_add_24
 drawable ic_baseline_calendar_today_24
@@ -29,7 +32,9 @@ id bulan
 id confirm_pass
 id container
 id daftar
+id date
 id floatingActionButton
+id floatingActionButton2
 id hari
 id imageView
 id imageView2
@@ -43,8 +48,10 @@ id logo
 id logout
 id minggu
 id nama_pengguna
+id nominal
 id register
 id register_pass
+id saldo
 id textDaftar
 id textView
 id textView10
@@ -63,6 +70,7 @@ id textView5
 id textView6
 id textView8
 id textView9
+layout activity_add_transaction
 layout activity_login
 layout activity_main
 layout activity_profile

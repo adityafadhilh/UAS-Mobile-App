@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.UAS_MobileApp" >
         <activity
+            android:name="id.ac.umn.uas_mobileapp.AddTransaction"
+            android:exported="true" />
+        <activity
             android:name="id.ac.umn.uas_mobileapp.Register"
             android:exported="false" />
         <activity

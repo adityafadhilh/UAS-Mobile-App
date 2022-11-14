@@ -12,4 +12,6 @@
     <color name="cyan">#4AE2C7</color>
     <color name="crimson">#DC143C</color>
     <color name="red">#FF5858</color>
+    <color name="yellow">#FFF73F</color>
+    <color name="grey">#E9E9E9</color>
 </resources>

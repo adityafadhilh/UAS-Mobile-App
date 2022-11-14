@@ -4,6 +4,9 @@
     <string name="table_layout_4_open_shortcut">tabel_lay_4</string>
     <string name="table_layout_4_save">tabel_lay_4</string>
     <string name="table_layout_4_save_shortcut">tabel_lay_4</string>
-
+    <string-array name="saldo">
+        <item>Dompet</item>
+        <item>Digital</item>
+    </string-array>
 
 </resources>

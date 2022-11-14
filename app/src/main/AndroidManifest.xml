@@ -13,10 +13,13 @@
         android:theme="@style/Theme.UAS_MobileApp"
         tools:targetApi="31">
         <activity
+            android:name="id.ac.umn.uas_mobileapp.AddTransaction"
+            android:exported="true" />
+        <activity
             android:name=".Register"
             android:exported="false" />
         <activity
-            android:name="id.ac.umn.uas_mobileapp.MainActivity"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Login"

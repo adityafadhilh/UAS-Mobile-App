@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array saldo
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -1270,6 +1271,7 @@ color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
 color green
+color grey
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -1780,6 +1782,7 @@ color test_mtrl_calendar_day_selected
 color tooltip_background_dark
 color tooltip_background_light
 color white
+color yellow
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -2673,6 +2676,7 @@ id custom
 id customPanel
 id cut
 id daftar
+id date
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -2733,6 +2737,7 @@ id fixed
 id flip
 id floating
 id floatingActionButton
+id floatingActionButton2
 id forever
 id fragment_container_view_tag
 id frost
@@ -2859,6 +2864,7 @@ id neverCompleteToEnd
 id neverCompleteToStart
 id noScroll
 id noState
+id nominal
 id none
 id normal
 id north
@@ -2899,6 +2905,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saldo
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3143,6 +3150,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_add_transaction
 layout activity_login
 layout activity_main
 layout activity_profile

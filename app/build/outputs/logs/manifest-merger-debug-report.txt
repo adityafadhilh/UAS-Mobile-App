@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\afher\.gradle\caches\transforms-3\363fe4cdeb1a39aeac4bc4d836592c17\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -44,27 +44,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\afher\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\fae210a5fc0bb1cb8a1dde4fa5748827\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\f51fb5b8dc49e87f4fb5aea83f94c713\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\afher\.gradle\caches\transforms-3\7ba19cd772583e27387c3ebb8db6b0ed\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
-INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
+INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
 	package
 		INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-32:12
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-35:12
 		INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-30:19
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-33:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -99,34 +99,40 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\af
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:7:9-65
+activity#id.ac.umn.uas_mobileapp.AddTransaction
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:15:9-17:39
+	android:exported
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:17:13-36
+	android:name
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:16:13-66
 activity#id.ac.umn.uas_mobileapp.Register
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:15:9-17:40
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:17:13-37
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:16:13-37
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-37
 activity#id.ac.umn.uas_mobileapp.MainActivity
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:18:9-20:39
-	android:exported
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:20:13-36
-	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-64
-activity#id.ac.umn.uas_mobileapp.Login
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:21:9-29:20
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:21:9-23:39
 	android:exported
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-34
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-41
+activity#id.ac.umn.uas_mobileapp.Login
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:24:9-32:20
+	android:exported
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:25:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:27-74
 uses-sdk
 INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml
