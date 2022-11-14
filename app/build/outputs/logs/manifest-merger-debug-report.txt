@@ -105,18 +105,18 @@ ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\Andr
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:16:13-37
-activity#id.ac.umn.uas_mobileapp.Login
+activity#id.ac.umn.uas_mobileapp.MainActivity
 ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:18:9-20:39
 	android:exported
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-57
-activity#id.ac.umn.uas_mobileapp.MainActivity
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-64
+activity#id.ac.umn.uas_mobileapp.Login
 ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:exported
 		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-41
+		ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN

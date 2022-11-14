@@ -41,14 +41,14 @@
 26-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:17:13-37
 27        <activity
 27-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:18:9-20:39
-28            android:name="id.ac.umn.uas_mobileapp.Login"
-28-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-57
+28            android:name="id.ac.umn.uas_mobileapp.MainActivity"
+28-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-64
 29            android:exported="true" />
 29-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:20:13-36
 30        <activity
 30-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:21:9-29:20
-31            android:name="id.ac.umn.uas_mobileapp.MainActivity"
-31-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-41
+31            android:name="id.ac.umn.uas_mobileapp.Login"
+31-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-34
 32            android:exported="true" >
 32-->C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\AndroidManifest.xml:23:13-36
 33            <intent-filter>
