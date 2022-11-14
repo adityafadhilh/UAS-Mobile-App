@@ -2,6 +2,7 @@
 <resources xmlns:ns1="http://schemas.android.com/tools">
     <color name="black">#FF000000</color>
     <color name="blue">#0096FF</color>
+    <color name="crimson">#DC143C</color>
     <color name="cyan">#4AE2C7</color>
     <color name="green">#A0E418</color>
     <color name="purple_200">#FFBB86FC</color>

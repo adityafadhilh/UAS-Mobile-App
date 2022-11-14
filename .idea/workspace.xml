@@ -13,8 +13,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22d7a6b2-f7cb-4bc7-b4ee-efde05debdf5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/BulanFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/HariFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/MingguFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/akomodasi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/line.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/makanan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rectangle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/rumah.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/tagihan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_bulan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_hari.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_minggu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/id/ac/umn/uas_mobileapp/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,15 +84,17 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="cidr.known.project.marker" value="true" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\res\drawable" />
+      <recent name="C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\res\layout" />
+      <recent name="C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\androidTest\java" />
+      <recent name="C:\Users\afher\AndroidStudioProjects\UAS-Mobile-App\app\src\main\java\id\ac\umn\uas_mobileapp" />
       <recent name="C:\Users\Fadhil\OneDrive\Documents\Programming\MobileAppProgramming\UAS-Mobile-App\app\src\main\res\drawable-mdpi" />
-      <recent name="C:\Users\Fadhil\OneDrive\Documents\Programming\MobileAppProgramming\UAS-Mobile-App\app\src\main\res\drawable-v24" />
-      <recent name="C:\Users\Fadhil\OneDrive\Documents\Programming\MobileAppProgramming\UAS-Mobile-App\app\src\main\res\drawable" />
     </key>
     <key name="android.template.-264749830">
       <recent name="id.ac.umn.uas_mobileapp" />
