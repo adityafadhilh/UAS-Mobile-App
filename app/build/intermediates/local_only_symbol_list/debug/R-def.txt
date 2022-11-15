@@ -33,6 +33,8 @@ drawable makanan
 drawable rectangle
 drawable rumah
 drawable tagihan
+id addExpense
+id addIncome
 id batal
 id bottom_navigation
 id btnExpense
@@ -47,7 +49,6 @@ id daftar
 id date
 id dateIncome
 id floatingActionButton
-id floatingActionButton2
 id hari
 id home
 id imageView

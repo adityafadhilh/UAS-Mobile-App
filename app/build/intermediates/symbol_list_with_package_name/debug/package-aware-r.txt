@@ -2608,6 +2608,8 @@ id action_text
 id actions
 id activity_chooser_view_content
 id add
+id addExpense
+id addIncome
 id alertTitle
 id aligned
 id all
@@ -2750,7 +2752,6 @@ id fixed
 id flip
 id floating
 id floatingActionButton
-id floatingActionButton2
 id forever
 id fragment_container_view_tag
 id frost

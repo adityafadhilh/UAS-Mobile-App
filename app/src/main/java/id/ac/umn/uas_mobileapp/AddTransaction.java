@@ -30,9 +30,6 @@ public class AddTransaction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_transaction);
 
-//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-//        getSupportActionBar().hide();
-
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Tambah Transaksi");
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -40,17 +37,6 @@ public class AddTransaction extends AppCompatActivity {
                 = new ColorDrawable(getResources().getColor(R.color.green));
 
         actionBar.setBackgroundDrawable(colorDrawable);
-
-//        inputNominal = findViewById(R.id.nominal);
-//        date = findViewById(R.id.date);
-//
-//        kategori = findViewById(R.id.kategori);
-//        ArrayAdapter<CharSequence> kategoriAdapter = ArrayAdapter.createFromResource(this, R.array.kategori, android.R.layout.simple_spinner_item);
-//        kategori.setAdapter(kategoriAdapter);
-//
-//        saldoSpinner = findViewById(R.id.saldo);
-//        ArrayAdapter<CharSequence> saldoAdapter = ArrayAdapter.createFromResource(this, R.array.saldo, android.R.layout.simple_spinner_item);
-//        saldoSpinner.setAdapter(saldoAdapter);
 
         getSupportFragmentManager().beginTransaction().replace(R.id.contain, expenseFragment).commit();
 

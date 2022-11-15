@@ -117,14 +117,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/contain"/>
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floatingActionButton2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_gravity="right"
-        android:clickable="true"
-        app:srcCompat="@android:drawable/ic_input_add" />
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/floatingActionButton2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="100dp"-->
+<!--        android:layout_gravity="right"-->
+<!--        android:clickable="true"-->
+<!--        app:srcCompat="@android:drawable/ic_input_add" />-->
 
 
 </LinearLayout>

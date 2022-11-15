@@ -2,12 +2,15 @@ package id.ac.umn.uas_mobileapp;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -20,6 +23,9 @@ public class Transaksi extends AppCompatActivity {
     HariFragment hariFragment = new HariFragment();
     MingguFragment mingguFragment = new MingguFragment();
     BulanFragment bulanFragment = new BulanFragment();
+
+    int nominal;
+    String kategori, saldo, tipeTransaksi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,6 +76,14 @@ public class Transaksi extends AppCompatActivity {
                 return false;
             }
         });
+
+        Bundle data = getIntent().getExtras();
+        if(data!=null){
+            nominal = data.getInt("nominal");
+            tipeTransaksi = data.getString("tipeTransaksi");
+            kategori = data.getString("kategori");
+            saldo = data.getString("saldo");
+        }
 
     }
 
