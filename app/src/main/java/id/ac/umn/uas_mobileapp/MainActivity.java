@@ -7,9 +7,11 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Toast;
 
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
@@ -57,7 +59,8 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(new Intent(getApplicationContext(),Transaksi.class));
                         return true;
                     case R.id.kamera:
-                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
+//                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
+                        useCamera();
                         return true;
                     case R.id.profile:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
@@ -68,6 +71,17 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+    }
+
+    public void useCamera(){
+        final int REQUEST_IMAGE_CAPTURE = 1;
+        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        try{
+            startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
+        }catch(Exception e){
+            Toast.makeText(getApplicationContext(), e.getMessage(),Toast.LENGTH_SHORT).show();
+        }
 
     }
 }
