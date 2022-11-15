@@ -80,10 +80,6 @@
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "id.ac.umn.uas_mobileapp-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "id.ac.umn.uas_mobileapp-main-31:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-29:\\layout_home_fragment.xml.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-31:\\layout\\home_fragment.xml"
     },
@@ -178,6 +174,10 @@
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-29:\\drawable_ic_baseline_insert_drive_file_24.xml.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-31:\\drawable\\ic_baseline_insert_drive_file_24.xml"
+    },
+    {
+        "merged": "id.ac.umn.uas_mobileapp-merged_res-29:/layout_activity_profile.xml.flat",
+        "source": "id.ac.umn.uas_mobileapp-main-31:/layout/activity_profile.xml"
     },
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",

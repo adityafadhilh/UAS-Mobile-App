@@ -25,7 +25,7 @@
             android:name=".Profile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="id.ac.umn.uas_mobileapp.MainActivity"
             android:exported="true" />
         <activity
             android:name=".Login"

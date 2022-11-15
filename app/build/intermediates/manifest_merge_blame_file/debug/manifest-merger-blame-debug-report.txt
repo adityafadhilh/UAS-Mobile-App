@@ -60,7 +60,7 @@
 36        <activity
 36-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:27:9-29:39
 37            android:name="id.ac.umn.uas_mobileapp.MainActivity"
-37-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-41
+37-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-64
 38            android:exported="true" />
 38-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:29:13-36
 39        <activity

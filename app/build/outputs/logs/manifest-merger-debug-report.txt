@@ -128,7 +128,7 @@ ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UA
 	android:exported
 		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-64
 activity#id.ac.umn.uas_mobileapp.Login
 ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:9-38:20
 	android:exported
