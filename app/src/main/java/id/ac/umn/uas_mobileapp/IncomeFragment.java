@@ -15,9 +15,9 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class IncomeFragment extends Fragment {
-    EditText inputNominal, date;
-    Spinner saldoSpinner, kategoriSpinner;
-    String tipeTransaksi, kategoriInput, saldoInput;
+    private EditText inputNominal, date;
+    private Spinner saldoSpinner, kategoriSpinner;
+    private String tipeTransaksi, kategoriInput, saldoInput;
     int nominal;
     FloatingActionButton add;
     @Override
@@ -25,7 +25,6 @@ public class IncomeFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_income, container, false);
         inputNominal = view.findViewById(R.id.nominalIncome);
-//        nominal = Integer.parseInt(inputNominal.getText().toString());
 
         date = view.findViewById(R.id.dateIncome);
 
@@ -64,6 +63,7 @@ public class IncomeFragment extends Fragment {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                nominal = Integer.parseInt(inputNominal.getText().toString());
                 Intent intent = new Intent(getContext(), Transaksi.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("tipeTransaksi", tipeTransaksi);

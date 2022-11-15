@@ -15,10 +15,10 @@ import androidx.fragment.app.Fragment;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class ExpenseFragment extends Fragment {
-    EditText inputNominal, date;
-    Spinner saldoSpinner, kategori;
-    String tipeTransaksi, kategoriInput, saldoInput;
-    FloatingActionButton add;
+    private EditText inputNominal, date;
+    private Spinner saldoSpinner, kategori;
+    private String tipeTransaksi, kategoriInput, saldoInput;
+    private FloatingActionButton add;
     int nominal = 0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,7 +26,6 @@ public class ExpenseFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_expense, container, false);
         inputNominal = view.findViewById(R.id.nominal);
-//        nominal = Integer.parseInt(inputNominal.getText().toString());
 
         date = view.findViewById(R.id.date);
 
@@ -63,6 +62,7 @@ public class ExpenseFragment extends Fragment {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                nominal = Integer.parseInt(inputNominal.getText().toString());
                 Intent intent = new Intent(getContext(), Transaksi.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("tipeTransaksi", tipeTransaksi);
