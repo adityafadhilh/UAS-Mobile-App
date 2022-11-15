@@ -93,7 +93,6 @@ id textView5
 id textView6
 id textView8
 id textView9
-id toolbar
 id transaksi
 layout activity_add_transaction
 layout activity_login
