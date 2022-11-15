@@ -5,8 +5,21 @@
     <string name="table_layout_4_save">tabel_lay_4</string>
     <string name="table_layout_4_save_shortcut">tabel_lay_4</string>
     <string-array name="saldo">
+        <item>Pilih saldo</item>
         <item>Dompet</item>
         <item>Digital</item>
     </string-array>
-
+    <string-array name="kategori">
+        <item>Pilih kategori</item>
+        <item>Makanan</item>
+        <item>Tempat Tinggal</item>
+        <item>Transportasi</item>
+        <item>Tagihan</item>
+    </string-array>
+    <string-array name="kategoriIncome">
+        <item>Pilih kategori</item>
+        <item>Gaji</item>
+        <item>Hadiah</item>
+        <item>Investasi</item>
+    </string-array>
 </resources>

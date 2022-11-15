@@ -22,10 +22,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.UAS_MobileApp" >
         <activity
+            android:name="id.ac.umn.uas_mobileapp.Transaksi"
+            android:exported="false" />
+        <activity
             android:name="id.ac.umn.uas_mobileapp.AddTransaction"
             android:exported="true" />
         <activity
             android:name="id.ac.umn.uas_mobileapp.Register"
+            android:exported="false" />
+        <activity
+            android:name="id.ac.umn.uas_mobileapp.Profile"
             android:exported="false" />
         <activity
             android:name="id.ac.umn.uas_mobileapp.MainActivity"

@@ -13,10 +13,16 @@
         android:theme="@style/Theme.UAS_MobileApp"
         tools:targetApi="31">
         <activity
+            android:name=".Transaksi"
+            android:exported="false" />
+        <activity
             android:name="id.ac.umn.uas_mobileapp.AddTransaction"
             android:exported="true" />
         <activity
             android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

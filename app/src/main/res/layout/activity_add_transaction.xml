@@ -30,81 +30,92 @@
         <Button
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:id="@+id/btnExpense"
             android:text="Expense"
             android:layout_marginRight="20dp"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="70dp"
             android:backgroundTint="@color/red"
             android:textColor="@color/black"/>
         <Button
             android:layout_width="120dp"
             android:layout_height="wrap_content"
+            android:id="@+id/btnIncome"
             android:text="Income"
             android:textColor="@color/black"
             android:backgroundTint="@color/grey"/>
     </LinearLayout>
-    <LinearLayout
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Nominal"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/nominal"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="number"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal">-->
+<!--&lt;!&ndash;        <Button&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_marginLeft="100dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:text="Pilih kategori"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:backgroundTint="@color/yellow"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:textColor="@color/black"/>&ndash;&gt;-->
+<!--            <Spinner-->
+<!--                android:id="@+id/kategori"-->
+<!--                android:layout_width="200dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="140px"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Kalender"/>-->
+<!--        <EditText-->
+<!--            android:id="@+id/date"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:inputType="date"-->
+<!--            android:hint="Pilih tanggal"/>-->
+<!--    </LinearLayout>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="50dp"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--        android:orientation="horizontal">-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Saldo" />-->
+<!--        <Spinner-->
+<!--            android:id="@+id/saldo"-->
+<!--            android:layout_width="200dp"-->
+<!--            android:layout_marginLeft="20dp"-->
+<!--            android:layout_height="wrap_content"/>-->
+<!--    </LinearLayout>-->
+    <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nominal"/>
-        <EditText
-            android:id="@+id/nominal"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:inputType="number"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="100dp"
-            android:text="Pilih kategori"
-            android:backgroundTint="@color/yellow"
-            android:textColor="@color/black"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Kalender"/>
-        <EditText
-            android:id="@+id/date"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:inputType="date"
-            android:hint="Pilih tanggal"/>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Saldo" />
-        <Spinner
-            android:id="@+id/saldo"
-            android:layout_width="200dp"
-            android:layout_marginLeft="20dp"
-            android:layout_height="wrap_content"/>
-    </LinearLayout>
+        android:id="@+id/contain"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton2"
