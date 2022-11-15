@@ -3,6 +3,8 @@ package id.ac.umn.uas_mobileapp;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -26,8 +28,16 @@ public class AddTransaction extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_transaction);
 
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
+//        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+//        getSupportActionBar().hide();
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Tambah Transaksi");
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        ColorDrawable colorDrawable
+                = new ColorDrawable(getResources().getColor(R.color.green));
+
+        actionBar.setBackgroundDrawable(colorDrawable);
 
 //        inputNominal = findViewById(R.id.nominal);
 //        date = findViewById(R.id.date);
@@ -51,6 +61,7 @@ public class AddTransaction extends AppCompatActivity {
                 getSupportFragmentManager().beginTransaction().replace(R.id.contain, expenseFragment).commit();
             }
         });
+
         income = findViewById(R.id.btnIncome);
         income.setOnClickListener(new View.OnClickListener() {
             @Override
