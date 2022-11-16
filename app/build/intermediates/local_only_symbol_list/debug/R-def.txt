@@ -30,6 +30,7 @@ drawable ic_launcher_foreground
 drawable line
 drawable logo
 drawable makanan
+drawable profile
 drawable rectangle
 drawable rumah
 drawable tagihan
