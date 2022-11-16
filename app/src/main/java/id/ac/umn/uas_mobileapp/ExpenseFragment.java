@@ -59,6 +59,7 @@ public class ExpenseFragment extends Fragment {
             public void onNothingSelected(AdapterView<?> adapterView) {}
         });
 
+
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -73,8 +74,6 @@ public class ExpenseFragment extends Fragment {
                 startActivity(intent);
             }
         });
-
-
 
         return view;
     }
