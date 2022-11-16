@@ -83,6 +83,26 @@ public class Transaksi extends AppCompatActivity {
             tipeTransaksi = data.getString("tipeTransaksi");
             kategori = data.getString("kategori");
             saldo = data.getString("saldo");
+
+            int img = 0;
+
+            if(kategori.equals("Transportasi"))
+                img = R.drawable.akomodasi;
+            if(kategori.equals("Tempat Tinggal"))
+                img = R.drawable.rumah;
+            if(kategori.equals("Makanan"))
+                img = R.drawable.makanan;
+            if(kategori.equals("Tagihan"))
+                img = R.drawable.tagihan;
+
+            String angka = "";
+
+            if(tipeTransaksi.equals("Expense"))
+                angka = "-" + String.valueOf(nominal);
+            if(tipeTransaksi.equals("Income"))
+                angka = "+" + String.valueOf(nominal);
+
+            hariFragment.items.add(new Item(kategori, angka, img));
         }
 
     }
