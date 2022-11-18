@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 //        getSupportActionBar().setTitle("Home");
         actionBar.setTitle("Home");
-        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#A0E418"));
+        ColorDrawable colorDrawable = new ColorDrawable(Color.parseColor("#40e0d0"));
         actionBar.setBackgroundDrawable(colorDrawable);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
 

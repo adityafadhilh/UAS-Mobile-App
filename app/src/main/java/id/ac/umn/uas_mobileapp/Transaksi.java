@@ -38,7 +38,7 @@ public class Transaksi extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Transaksi");
         ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor("#A0E418"));
+                = new ColorDrawable(Color.parseColor("#40e0d0"));
 
         actionBar.setBackgroundDrawable(colorDrawable);
 
@@ -86,14 +86,16 @@ public class Transaksi extends AppCompatActivity {
 
             int img = 0;
 
-            if(kategori.equals("Transportasi"))
-                img = R.drawable.akomodasi;
-            if(kategori.equals("Tempat Tinggal"))
-                img = R.drawable.rumah;
-            if(kategori.equals("Makanan"))
-                img = R.drawable.makanan;
-            if(kategori.equals("Tagihan"))
-                img = R.drawable.tagihan;
+//            if(kategori.equals("Transportasi"))
+//                img = R.drawable.akomodasi;
+//            if(kategori.equals("Tempat Tinggal"))
+//                img = R.drawable.rumah;
+//            if(kategori.equals("Makanan"))
+//                img = R.drawable.makanan;
+//            if(kategori.equals("Tagihan"))
+//                img = R.drawable.tagihan;
+
+            img = R.drawable.minus;
 
             String angka = "";
 

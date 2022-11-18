@@ -46,10 +46,19 @@ public class HariFragment extends Fragment {
         return view;
     }
 
+//    public void initData(){
+//        items.add(new Item("Transportasi","-200.000",R.drawable.akomodasi));
+//        items.add(new Item("Tempat Tinggal","-1.000.000",R.drawable.rumah));
+//        items.add(new Item("Makanan","-200.000",R.drawable.makanan));
+//        items.add(new Item("Tagihan","-400.000",R.drawable.tagihan));
+//    }
+
     public void initData(){
-        items.add(new Item("Transportasi","-200.000",R.drawable.akomodasi));
-        items.add(new Item("Tempat Tinggal","-1.000.000",R.drawable.rumah));
-        items.add(new Item("Makanan","-200.000",R.drawable.makanan));
-        items.add(new Item("Tagihan","-400.000",R.drawable.tagihan));
+        items.add(new Item("Transportasi","-200.000",R.drawable.minus));
+        items.add(new Item("Tempat Tinggal","-1.000.000",R.drawable.minus));
+        items.add(new Item("Makanan","-200.000",R.drawable.minus));
+        items.add(new Item("Tagihan","-400.000",R.drawable.minus));
+        items.add(new Item("Hadiah","200.000",R.drawable.plus));
+
     }
 }
