@@ -23,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:stretchColumns="1"
-        android:background="@color/cyan"
+        android:background="@drawable/edittext_round"
+        android:backgroundTint="@color/teal_200"
         android:layout_marginBottom="0dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
@@ -42,13 +43,15 @@
             <TextView
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:background="@color/white"
+                android:background="@drawable/edittext_round"
                 android:foregroundTint="#FFFFFF"
                 android:padding="3dip"
                 android:text="John Doe"/>
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">
+
             <TextView
                 android:padding="3dip"
                 android:layout_marginLeft="50dp"
@@ -58,11 +61,12 @@
                 android:padding="3dip"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:background="@color/white"
+                android:background="@drawable/edittext_round"
                 android:text="johndoe@gmail.com" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+            android:layout_marginTop="10dp">>
             <TextView
                 android:padding="3dip"
                 android:layout_marginLeft="50dp"
@@ -72,11 +76,13 @@
                 android:padding="3dip"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:background="@color/white"
+                android:background="@drawable/edittext_round"
                 android:text="BCA" />
         </TableRow>
 
-        <TableRow>
+        <TableRow
+
+            android:layout_marginTop="10dp">>
             <TextView
                 android:padding="3dip"
                 android:layout_marginLeft="50dp"
@@ -86,7 +92,7 @@
                 android:padding="3dip"
                 android:layout_marginLeft="50dp"
                 android:layout_marginRight="50dp"
-                android:background="@color/white"
+                android:background="@drawable/edittext_round"
                 android:text="082177775566" />
         </TableRow>
 
