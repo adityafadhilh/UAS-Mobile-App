@@ -121,16 +121,16 @@ public class Transaksi extends AppCompatActivity {
 
             int img = 0;
 
-//            if(kategori.equals("Transportasi"))
-//                img = R.drawable.akomodasi;
-//            if(kategori.equals("Tempat Tinggal"))
-//                img = R.drawable.rumah;
-//            if(kategori.equals("Makanan"))
-//                img = R.drawable.makanan;
-//            if(kategori.equals("Tagihan"))
-//                img = R.drawable.tagihan;
+            if(kategori.equals("Transportasi"))
+                img = R.drawable.akomodasi;
+            if(kategori.equals("Tempat Tinggal"))
+                img = R.drawable.rumah;
+            if(kategori.equals("Makanan"))
+                img = R.drawable.makanan;
+            if(kategori.equals("Tagihan"))
+                img = R.drawable.tagihan;
 
-            img = R.drawable.minus;
+//            img = R.drawable.minus;
 
             String angka = "";
 
