@@ -5,6 +5,8 @@ INJECTED from C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\sr
 INJECTED from C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-41:12
 INJECTED from C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\85c801e564bc47d5ca77c271c5d095f8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a2deb4cf3e00588e6b0f33e32e053433\transformed\eazegraph-1.2.5l\AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\afher\.gradle\caches\transforms-3\363fe4cdeb1a39aeac4bc4d836592c17\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.appcompat:appcompat:1.5.1] C:\Users\afher\.gradle\caches\transforms-3\933fd91551fe3bf86be7acaa86b35e83\transformed\appcompat-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -32,7 +34,6 @@ MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\afher\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\afher\.gradle\caches\transforms-3\6e7c1752373ef0693609ad2531a9e3fd\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:17:1-37:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\afher\.gradle\caches\transforms-3\e78ba2708de4a7d99f28b79b1f2f77cd\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\afher\.gradle\caches\transforms-3\0c715c4f5090ae5212b8085e22e94c54\transformed\savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\85c801e564bc47d5ca77c271c5d095f8\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\afher\.gradle\caches\transforms-3\c321875622de0b2d6358143c737f0891\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\46ebc1a07f9084399cadc1a30ef5fcf6\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\afher\.gradle\caches\transforms-3\1964f5e17f268d62bab470350ee9af56\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
@@ -67,6 +68,8 @@ application
 ADDED from C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-39:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a2deb4cf3e00588e6b0f33e32e053433\transformed\eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a2deb4cf3e00588e6b0f33e32e053433\transformed\eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\afher\.gradle\caches\transforms-3\33dd0607b2c3513c468e851ce1a7c9f3\transformed\emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
@@ -151,6 +154,10 @@ INJECTED from C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\sr
 INJECTED from C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\adda99d23996a8ced44ca05ae30b6da9\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\85c801e564bc47d5ca77c271c5d095f8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\85c801e564bc47d5ca77c271c5d095f8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a2deb4cf3e00588e6b0f33e32e053433\transformed\eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a2deb4cf3e00588e6b0f33e32e053433\transformed\eazegraph-1.2.5l\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\afher\.gradle\caches\transforms-3\c30b17b884e6584d7e94325a96eac5ef\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\afher\.gradle\caches\transforms-3\363fe4cdeb1a39aeac4bc4d836592c17\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:20:5-44
@@ -205,8 +212,6 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\afher\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.5.1] C:\Users\afher\.gradle\caches\transforms-3\e78ba2708de4a7d99f28b79b1f2f77cd\transformed\lifecycle-runtime-2.5.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\afher\.gradle\caches\transforms-3\0c715c4f5090ae5212b8085e22e94c54\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\afher\.gradle\caches\transforms-3\0c715c4f5090ae5212b8085e22e94c54\transformed\savedstate-1.2.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\85c801e564bc47d5ca77c271c5d095f8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\85c801e564bc47d5ca77c271c5d095f8\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\afher\.gradle\caches\transforms-3\c321875622de0b2d6358143c737f0891\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\afher\.gradle\caches\transforms-3\c321875622de0b2d6358143c737f0891\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\46ebc1a07f9084399cadc1a30ef5fcf6\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41

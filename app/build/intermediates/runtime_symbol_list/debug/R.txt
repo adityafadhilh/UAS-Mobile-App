@@ -424,6 +424,37 @@ int attr dynamicColorThemeOverlay 0x7f040163
 int attr editTextBackground 0x7f040164
 int attr editTextColor 0x7f040165
 int attr editTextStyle 0x7f040166
+int attr egAnimationTime 0x7f040453
+int attr egAxisTextColor 0x7f040454
+int attr egAxisTextSize 0x7f040455
+int attr egBarMargin 0x7f040456
+int attr egBarWidth 0x7f040457
+int attr egCurveSmoothness 0x7f040458
+int attr egEmptyDataText 0x7f040459
+int attr egFixedBarWidth 0x7f04045a
+int attr egHighlightStrength 0x7f04045b
+int attr egInnerPadding 0x7f04045c
+int attr egInnerPaddingColor 0x7f04045d
+int attr egInnerPaddingOutline 0x7f04045e
+int attr egInnerValueColor 0x7f04045f
+int attr egInnerValueSize 0x7f040460
+int attr egInnerValueString 0x7f040461
+int attr egLeftFillerSize 0x7f040462
+int attr egLegendColor 0x7f040463
+int attr egLegendHeight 0x7f040464
+int attr egLegendTextSize 0x7f040465
+int attr egLineStroke 0x7f040466
+int attr egOpenClockwise 0x7f040467
+int attr egScalingFactor 0x7f040468
+int attr egShowDecimal 0x7f040469
+int attr egShowValues 0x7f04046a
+int attr egUseCubic 0x7f04046b
+int attr egUseDynamicScaling 0x7f04046c
+int attr egUseInnerPadding 0x7f04046d
+int attr egUseInnerValue 0x7f04046e
+int attr egUseLeftFiller 0x7f04046f
+int attr egUseOverlapFill 0x7f040470
+int attr egXAxisStroke 0x7f040471
 int attr elevation 0x7f040167
 int attr elevationOverlayAccentColor 0x7f040168
 int attr elevationOverlayColor 0x7f040169
@@ -1223,6 +1254,12 @@ int color cardview_light_background 0x7f06002c
 int color cardview_shadow_end_color 0x7f06002d
 int color cardview_shadow_start_color 0x7f06002e
 int color checkbox_themeable_attribute_color 0x7f06002f
+int color colorAccent 0x7f060261
+int color colorPrimary 0x7f060262
+int color colorPrimaryDark 0x7f060263
+int color color_one 0x7f060264
+int color color_two 0x7f060265
+int color color_white 0x7f060266
 int color crimson 0x7f060030
 int color cyan 0x7f060031
 int color design_bottom_navigation_shadow_color 0x7f060032
@@ -1271,6 +1308,7 @@ int color error_color_material_dark 0x7f06005c
 int color error_color_material_light 0x7f06005d
 int color foreground_material_dark 0x7f06005e
 int color foreground_material_light 0x7f06005f
+int color four 0x7f060267
 int color green 0x7f060060
 int color grey 0x7f060061
 int color highlighted_text_material_dark 0x7f060062
@@ -1750,6 +1788,7 @@ int color mtrl_textinput_focused_box_stroke_color 0x7f06023b
 int color mtrl_textinput_hovered_box_stroke_color 0x7f06023c
 int color notification_action_color_filter 0x7f06023d
 int color notification_icon_bg_color 0x7f06023e
+int color one 0x7f060268
 int color primary_dark_material_dark 0x7f06023f
 int color primary_dark_material_light 0x7f060240
 int color primary_material_dark 0x7f060241
@@ -1780,8 +1819,10 @@ int color teal_700 0x7f060259
 int color test_color 0x7f06025a
 int color test_mtrl_calendar_day 0x7f06025b
 int color test_mtrl_calendar_day_selected 0x7f06025c
+int color three 0x7f060269
 int color tooltip_background_dark 0x7f06025d
 int color tooltip_background_light 0x7f06025e
+int color two 0x7f06026a
 int color white 0x7f06025f
 int color yellow 0x7f060260
 int dimen abc_action_bar_content_inset_material 0x7f070000
@@ -2651,6 +2692,7 @@ int id calender_month 0x7f09006b
 int id calender_week 0x7f09006c
 int id callMeasure 0x7f09006d
 int id cancel_button 0x7f09006e
+int id cardViewGraph 0x7f090214
 int id carryVelocity 0x7f09006f
 int id center 0x7f090070
 int id centerCrop 0x7f090071
@@ -2907,6 +2949,7 @@ int id path 0x7f09016b
 int id pathRelative 0x7f09016c
 int id peekHeight 0x7f09016d
 int id percent 0x7f09016e
+int id piechart 0x7f090215
 int id pin 0x7f09016f
 int id position 0x7f090170
 int id postLayout 0x7f090171
@@ -4727,6 +4770,21 @@ int styleable Badge_maxCharacterCount 8
 int styleable Badge_number 9
 int styleable Badge_verticalOffset 10
 int styleable Badge_verticalOffsetWithText 11
+int[] styleable BarChart { 0x7f04046a }
+int styleable BarChart_egShowValues 0
+int[] styleable BaseBarChart { 0x7f040456, 0x7f040457, 0x7f04045a }
+int styleable BaseBarChart_egBarMargin 0
+int styleable BaseBarChart_egBarWidth 1
+int styleable BaseBarChart_egFixedBarWidth 2
+int[] styleable BaseChart { 0x7f040453, 0x7f040459, 0x7f040462, 0x7f040463, 0x7f040464, 0x7f040465, 0x7f040469, 0x7f04046f }
+int styleable BaseChart_egAnimationTime 0
+int styleable BaseChart_egEmptyDataText 1
+int styleable BaseChart_egLeftFillerSize 2
+int styleable BaseChart_egLegendColor 3
+int styleable BaseChart_egLegendHeight 4
+int styleable BaseChart_egLegendTextSize 5
+int styleable BaseChart_egShowDecimal 6
+int styleable BaseChart_egUseLeftFiller 7
 int[] styleable BaseProgressIndicator { 0x01010139, 0x7f0401d4, 0x7f0401f3, 0x7f0402bc, 0x7f04034d, 0x7f04034f, 0x7f040420, 0x7f040423, 0x7f040425 }
 int styleable BaseProgressIndicator_android_indeterminate 0
 int styleable BaseProgressIndicator_hideAnimationBehavior 1
@@ -6028,6 +6086,17 @@ int styleable OnSwipe_springStopThreshold 15
 int styleable OnSwipe_touchAnchorId 16
 int styleable OnSwipe_touchAnchorSide 17
 int styleable OnSwipe_touchRegionId 18
+int[] styleable PieChart { 0x7f04045b, 0x7f04045c, 0x7f04045d, 0x7f04045e, 0x7f04045f, 0x7f040460, 0x7f040461, 0x7f040467, 0x7f04046d, 0x7f04046e }
+int styleable PieChart_egHighlightStrength 0
+int styleable PieChart_egInnerPadding 1
+int styleable PieChart_egInnerPaddingColor 2
+int styleable PieChart_egInnerPaddingOutline 3
+int styleable PieChart_egInnerValueColor 4
+int styleable PieChart_egInnerValueSize 5
+int styleable PieChart_egInnerValueString 6
+int styleable PieChart_egOpenClockwise 7
+int styleable PieChart_egUseInnerPadding 8
+int styleable PieChart_egUseInnerValue 9
 int[] styleable PopupWindow { 0x01010176, 0x010102c9, 0x7f0402f6 }
 int styleable PopupWindow_android_popupBackground 0
 int styleable PopupWindow_android_popupAnimationStyle 1
@@ -6381,6 +6450,16 @@ int styleable Transition_pathMotionArc 7
 int styleable Transition_staggered 8
 int styleable Transition_transitionDisable 9
 int styleable Transition_transitionFlags 10
+int[] styleable ValueLineChart { 0x7f040454, 0x7f040455, 0x7f040458, 0x7f040466, 0x7f040468, 0x7f04046b, 0x7f04046c, 0x7f040470, 0x7f040471 }
+int styleable ValueLineChart_egAxisTextColor 0
+int styleable ValueLineChart_egAxisTextSize 1
+int styleable ValueLineChart_egCurveSmoothness 2
+int styleable ValueLineChart_egLineStroke 3
+int styleable ValueLineChart_egScalingFactor 4
+int styleable ValueLineChart_egUseCubic 5
+int styleable ValueLineChart_egUseDynamicScaling 6
+int styleable ValueLineChart_egUseOverlapFill 7
+int styleable ValueLineChart_egXAxisStroke 8
 int[] styleable Variant { 0x7f040108, 0x7f040330, 0x7f040331, 0x7f040332, 0x7f040333 }
 int styleable Variant_constraints 0
 int styleable Variant_region_heightLessThan 1
