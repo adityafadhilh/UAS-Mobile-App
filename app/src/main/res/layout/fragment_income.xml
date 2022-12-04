@@ -52,11 +52,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kalender"/>
-        <EditText
+        <Button
             android:id="@+id/dateIncome"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
-            android:inputType="date"
+            android:backgroundTint="@color/green"
+            android:layout_marginLeft="20px"
             android:hint="Pilih tanggal"/>
     </LinearLayout>
     <LinearLayout

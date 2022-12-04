@@ -7,18 +7,24 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.Date;
+
 public class ExpenseFragment extends Fragment {
-    private EditText inputNominal, date;
+    private EditText inputNominal;
     private Spinner saldoSpinner, kategori;
     private String tipeTransaksi, kategoriInput, saldoInput;
     private FloatingActionButton add;
+    private Button dateBtn;
+    private Date date;
     int nominal = 0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -27,7 +33,7 @@ public class ExpenseFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_expense, container, false);
         inputNominal = view.findViewById(R.id.nominal);
 
-        date = view.findViewById(R.id.date);
+        dateBtn = view.findViewById(R.id.date);
 
         add = view.findViewById(R.id.addExpense);
 
@@ -75,6 +81,18 @@ public class ExpenseFragment extends Fragment {
             }
         });
 
+        dateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showDatePickerDialog(view);
+            }
+        });
+
         return view;
+    }
+
+    public void showDatePickerDialog(View v) {
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getFragmentManager(), "datePicker");
     }
 }

@@ -1,5 +1,7 @@
 package id.ac.umn.uas_mobileapp;
 
+import android.app.DatePickerDialog;
+import android.app.Dialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -7,17 +9,26 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
 
+import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
+import java.util.Calendar;
+import java.util.Date;
+
 public class IncomeFragment extends Fragment {
-    private EditText inputNominal, date;
+    private EditText inputNominal;
+    private Button dateBtn;
     private Spinner saldoSpinner, kategoriSpinner;
     private String tipeTransaksi, kategoriInput, saldoInput;
+    private Date date;
     int nominal;
     FloatingActionButton add;
     @Override
@@ -26,7 +37,7 @@ public class IncomeFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_income, container, false);
         inputNominal = view.findViewById(R.id.nominalIncome);
 
-        date = view.findViewById(R.id.dateIncome);
+        dateBtn = view.findViewById(R.id.dateIncome);
 
         tipeTransaksi = "Income";
 
@@ -75,6 +86,19 @@ public class IncomeFragment extends Fragment {
             }
         });
 
+        dateBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                showDatePickerDialog(view);
+            }
+        });
+
         return view;
     }
+
+    public void showDatePickerDialog(View v) {
+        DialogFragment newFragment = new DatePickerFragment();
+        newFragment.show(getFragmentManager(), "datePicker");
+    }
 }
+
