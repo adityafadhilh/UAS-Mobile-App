@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "id.ac.umn.uas_mobileapp-mergeDebugResources-28:/values-sw/values-sw.xml",
+            "outputFile": "id.ac.umn.uas_mobileapp-mergeDebugResources-29:/values-sw/values-sw.xml",
             "map": [
                 {
                     "source": "C:\\Users\\afher\\.gradle\\caches\\transforms-3\\be332d0a91cefe0ea04c9b2f763a1a51\\transformed\\core-1.8.0\\res\\values-sw\\values-sw.xml",

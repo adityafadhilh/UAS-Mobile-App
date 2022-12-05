@@ -88,14 +88,12 @@ id register
 id register_pass
 id saldo
 id saldoIncome
+id swipeRefresh
 id textDaftar
 id textView
 id textView1
 id textView2
 id textView3
-id textView4
-id textView5
-id textView6
 id transaksi
 id type
 layout activity_add_transaction

@@ -6,78 +6,78 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="25"
-8-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml
+8-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="32" />
-9-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml
+9-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-39:19
+11-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-39:19
 12        android:allowBackup="true"
-12-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:6:9-35
+12-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.8.0] C:\Users\afher\.gradle\caches\transforms-3\be332d0a91cefe0ea04c9b2f763a1a51\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 14        android:dataExtractionRules="@xml/data_extraction_rules"
-14-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:7:9-65
+14-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:7:9-65
 15        android:debuggable="true"
 16        android:extractNativeLibs="false"
 17        android:fullBackupContent="@xml/backup_rules"
-17-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:8:9-54
+17-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:8:9-54
 18        android:icon="@mipmap/ic_launcher"
-18-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:9:9-43
+18-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:9:9-43
 19        android:label="@string/app_name"
-19-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:10:9-41
+19-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:10:9-41
 20        android:roundIcon="@mipmap/ic_launcher_round"
-20-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:11:9-54
+20-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:11:9-54
 21        android:supportsRtl="true"
-21-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:12:9-35
+21-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:12:9-35
 22        android:testOnly="true"
 23        android:theme="@style/Theme.UAS_MobileApp" >
-23-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:13:9-51
+23-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:13:9-51
 24        <activity
-24-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:15:9-17:40
+24-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:15:9-17:40
 25            android:name="id.ac.umn.uas_mobileapp.Transaksi"
-25-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:16:13-38
+25-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:16:13-38
 26            android:exported="false" />
-26-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:17:13-37
+26-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:17:13-37
 27        <activity
-27-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:18:9-20:39
+27-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:18:9-20:39
 28            android:name="id.ac.umn.uas_mobileapp.AddTransaction"
-28-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-66
+28-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:19:13-66
 29            android:exported="true" />
-29-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:20:13-36
+29-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:20:13-36
 30        <activity
-30-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:21:9-23:40
+30-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:21:9-23:40
 31            android:name="id.ac.umn.uas_mobileapp.Register"
-31-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-37
+31-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:22:13-37
 32            android:exported="false" />
-32-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:23:13-37
+32-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:23:13-37
 33        <activity
-33-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:24:9-26:40
+33-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:24:9-26:40
 34            android:name="id.ac.umn.uas_mobileapp.Profile"
-34-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:25:13-36
+34-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:25:13-36
 35            android:exported="false" />
-35-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:26:13-37
+35-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:26:13-37
 36        <activity
-36-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:27:9-29:39
+36-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:27:9-29:39
 37            android:name="id.ac.umn.uas_mobileapp.MainActivity"
-37-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-64
+37-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-64
 38            android:exported="true" />
-38-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:29:13-36
+38-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:29:13-36
 39        <activity
-39-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:9-38:20
+39-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:9-38:20
 40            android:name="id.ac.umn.uas_mobileapp.Login"
-40-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:31:13-34
+40-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:31:13-34
 41            android:exported="true" >
-41-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:32:13-36
+41-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:32:13-36
 42            <intent-filter>
-42-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:33:13-37:29
+42-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:33:13-37:29
 43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:17-69
-43-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:25-66
+43-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:17-69
+43-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:25-66
 44
 45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:17-77
-45-->C:\Users\afher\Documents\Programming\Android\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:27-74
+45-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:17-77
+45-->C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:27-74
 46            </intent-filter>
 47        </activity>
 48

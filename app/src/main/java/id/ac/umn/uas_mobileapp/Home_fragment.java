@@ -28,22 +28,22 @@ public class Home_fragment extends Fragment {
         // Set the data and color to the pie chart
         pieChart.addPieSlice(
                 new PieModel(
-                        "R",
+                        "Tempat Tinggal",
                         30,
                         Color.parseColor("#FFA726")));
         pieChart.addPieSlice(
                 new PieModel(
-                        "Python",
+                        "Makanan",
                         20,
                         Color.parseColor("#66BB6A")));
         pieChart.addPieSlice(
                 new PieModel(
-                        "C++",
+                        "Tagihan",
                         40,
                         Color.parseColor("#EF5350")));
         pieChart.addPieSlice(
                 new PieModel(
-                        "Java",
+                        "Transportasi",
                         10,
                         Color.parseColor("#29B6F6")));
 
