@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:stretchColumns="1"
-        android:background="@color/cyan"
+        android:background="#5EDD7A"
         android:layout_marginBottom="100dp"
         android:layout_marginRight="40dp"
         android:layout_marginLeft="40dp"
