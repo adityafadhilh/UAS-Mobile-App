@@ -86,6 +86,7 @@ id profile
 id recyclerview
 id register
 id register_pass
+id relativeLayout
 id saldo
 id saldoIncome
 id swipeRefresh
@@ -118,6 +119,14 @@ menu calender
 mipmap ic_launcher
 mipmap ic_launcher_round
 string app_name
+string default_web_client_id
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
 string table_layout_4_open
 string table_layout_4_open_shortcut
 string table_layout_4_save
