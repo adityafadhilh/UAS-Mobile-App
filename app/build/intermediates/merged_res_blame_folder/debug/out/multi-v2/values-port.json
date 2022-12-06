@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "id.ac.umn.uas_mobileapp-mergeDebugResources-29:/values-port/values-port.xml",
+            "outputFile": "id.ac.umn.uas_mobileapp-mergeDebugResources-33:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\afher\\.gradle\\caches\\transforms-3\\933fd91551fe3bf86be7acaa86b35e83\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
+                    "source": "C:\\Users\\afher\\.gradle\\caches\\transforms-3\\08ca075a13b7e980c23c68d3e5bb60eb\\transformed\\appcompat-1.5.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "382769491336",
+    "firebase_url": "https://uas-mobileapp-1c717-default-rtdb.firebaseio.com",
+    "project_id": "uas-mobileapp-1c717",
+    "storage_bucket": "uas-mobileapp-1c717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382769491336:android:57cfcce7e85f7386a21e3d",
+        "android_client_info": {
+          "package_name": "id.ac.umn.uas_mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382769491336-5a5t73a0dlsgufi2k6e8rffftt5nhsrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT_QpzCMyTAlhBzcehJ3XPkVEGSfnORD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382769491336-5a5t73a0dlsgufi2k6e8rffftt5nhsrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

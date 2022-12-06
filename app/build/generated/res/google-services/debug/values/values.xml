@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">382769491336-5a5t73a0dlsgufi2k6e8rffftt5nhsrs.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://uas-mobileapp-1c717-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">382769491336</string>
+    <string name="google_api_key" translatable="false">AIzaSyBT_QpzCMyTAlhBzcehJ3XPkVEGSfnORD8</string>
+    <string name="google_app_id" translatable="false">1:382769491336:android:57cfcce7e85f7386a21e3d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBT_QpzCMyTAlhBzcehJ3XPkVEGSfnORD8</string>
+    <string name="google_storage_bucket" translatable="false">uas-mobileapp-1c717.appspot.com</string>
+    <string name="project_id" translatable="false">uas-mobileapp-1c717</string>
+</resources>
