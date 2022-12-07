@@ -64,7 +64,7 @@
             android:layout_height="50dp"
             android:layout_marginBottom="200dp"
             android:backgroundTint="@color/green"
-            android:text="Daftar"
+            android:text="Register"
             android:textColor="@color/black" />
     </LinearLayout>
 
