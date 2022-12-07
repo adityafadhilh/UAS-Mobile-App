@@ -26,7 +26,7 @@ public class Profile extends AppCompatActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("Profil");
         ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor("#A0E418"));
+                = new ColorDrawable(Color.parseColor("#40e0d0"));
 
         actionBar.setBackgroundDrawable(colorDrawable);
 

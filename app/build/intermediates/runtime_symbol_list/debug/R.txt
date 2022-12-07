@@ -2830,6 +2830,7 @@ int id fill 0x7f0900ce
 int id fill_horizontal 0x7f0900cf
 int id fill_vertical 0x7f0900d0
 int id filled 0x7f0900d1
+int id firstname 0x7f09021b
 int id fitCenter 0x7f0900d2
 int id fitEnd 0x7f0900d3
 int id fitStart 0x7f0900d4
@@ -2883,6 +2884,7 @@ int id kamera 0x7f090103
 int id kategori 0x7f090104
 int id kategoriIncome 0x7f090105
 int id labeled 0x7f090106
+int id lastname 0x7f09021c
 int id layout 0x7f090107
 int id left 0x7f090108
 int id leftToRight 0x7f090109

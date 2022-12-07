@@ -63,6 +63,7 @@ id container
 id daftar
 id date
 id dateIncome
+id firstname
 id floatingActionButton
 id hari
 id home
@@ -73,6 +74,7 @@ id inputPass
 id kamera
 id kategori
 id kategoriIncome
+id lastname
 id linearLayout
 id login
 id logo

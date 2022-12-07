@@ -20,9 +20,9 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 public class Register extends AppCompatActivity {
-    EditText username, password, confirmPass;
+    EditText username, firstName, lastName, password, confirmPass;
     Button batal, register;
-    String userStr, passStr,confirmPassStr;
+    String userStr, fNameStr, lNameStr, passStr,confirmPassStr;
     User user;
     DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
     long id;
@@ -51,6 +51,8 @@ public class Register extends AppCompatActivity {
 
 
         username = findViewById(R.id.nama_pengguna);
+        firstName = findViewById(R.id.firstname);
+        lastName = findViewById(R.id.lastname);
         password = findViewById(R.id.register_pass);
         confirmPass = findViewById(R.id.confirm_pass);
 
@@ -71,6 +73,8 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 userStr = username.getText().toString();
+                fNameStr = firstName.getText().toString();
+                lNameStr = lastName.getText().toString();
                 passStr = password.getText().toString();
                 confirmPassStr = confirmPass.getText().toString();
 //                Toast.makeText(getApplicationContext(), FirebaseDatabase.getInstance().getReference().toString(), Toast.LENGTH_LONG).show();
@@ -79,9 +83,13 @@ public class Register extends AppCompatActivity {
                 if(!confirmPassStr.equals(passStr)){
                     Toast.makeText(Register.this, "Konfirmasi sandi harus sama dengan sandi", Toast.LENGTH_SHORT).show();
                 }else{
-                    user.setName(userStr);
+                    user.setUsername(userStr);
+                    user.setFirstName(fNameStr);
+                    user.setLastName(lNameStr);
                     user.setPass(passStr);
-                    ref.push().setValue(user);
+
+                    ref.child(user.getUsername()).setValue(user);
+
                     Intent i = new Intent(getApplicationContext(), Login.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("username", userStr);
