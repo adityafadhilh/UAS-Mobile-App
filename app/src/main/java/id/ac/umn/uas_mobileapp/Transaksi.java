@@ -26,11 +26,14 @@ public class Transaksi extends AppCompatActivity {
 
     int nominal;
     String kategori, saldo, tipeTransaksi;
+    String username;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaksi);
+
+//        username = getUser();
 
         ActionBar actionBar;
         actionBar = getSupportActionBar();
@@ -142,6 +145,12 @@ public class Transaksi extends AppCompatActivity {
             hariFragment.items.add(new Item(kategori, angka, img));
         }
     }
+
+//    public String getUser(){
+//        Bundle data = getIntent().getExtras();
+//        username = data.getString("user");
+//        return username;
+//    }
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {

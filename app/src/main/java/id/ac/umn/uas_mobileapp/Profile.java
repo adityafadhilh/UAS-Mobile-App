@@ -4,21 +4,45 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Profile extends AppCompatActivity {
     Button logout;
+    String username;
+    String fName, lName;
+    TextView nama;
+    DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference().child("Users");
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
+
+//        nama = findViewById(R.id.nama);
+//
+//        username = getUsername();
+//
+//        getData(username);
+//
+//        nama.setText(fName + " " + lName);
+//
+//        Toast.makeText(this, username, Toast.LENGTH_SHORT).show();
+
+
 
         ActionBar actionBar;
         actionBar = getSupportActionBar();
@@ -50,4 +74,37 @@ public class Profile extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+//    public String getUsername(){
+//        Bundle data = getIntent().getExtras();
+//        username = data.getString("user");
+//        return username;
+//    }
+//
+//    public void getData(String username){
+//        mDatabase.child(username).child("firstName").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<DataSnapshot> task) {
+//                if (!task.isSuccessful()) {
+//                    Log.e("firebase", "Error getting data", task.getException());
+//                }
+//                else {
+//                    fName = String.valueOf(task.getResult().getValue());
+//                }
+//            }
+//        });
+//
+//        mDatabase.child(username).child("lastName").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<DataSnapshot> task) {
+//                if (!task.isSuccessful()) {
+//                    Log.e("firebase", "Error getting data", task.getException());
+//                }
+//                else {
+//                    lName = String.valueOf(task.getResult().getValue());
+//                }
+//            }
+//        });
+//    }
+
 }

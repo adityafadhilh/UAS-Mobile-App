@@ -80,6 +80,7 @@ id login
 id logo
 id logout
 id minggu
+id nama
 id nama_pengguna
 id nominal
 id nominalIncome

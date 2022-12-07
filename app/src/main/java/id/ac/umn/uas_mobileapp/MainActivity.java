@@ -21,6 +21,7 @@ import com.google.android.material.navigation.NavigationBarView;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
+    String username;
 
     Home_fragment homeFragment = new Home_fragment();
     Transaksi_fragment transaksiFragment = new Transaksi_fragment();
@@ -32,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        username = getUser();
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 //        getSupportActionBar().hide();
 
@@ -56,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
                         return (true);
                     case R.id.transaksi:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,transaksiFragment).commit();
-                        startActivity(new Intent(getApplicationContext(),Transaksi.class));
+                        startActivity(new Intent(getApplicationContext(),Transaksi.class)/*.putExtra("user", username)*/);
                         return true;
                     case R.id.kamera:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
@@ -64,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.profile:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
-                        startActivity(new Intent(getApplicationContext(),Profile.class));
+                        startActivity(new Intent(getApplicationContext(),Profile.class)/*.putExtra("user", username)*/);
                         overridePendingTransition(0,0);
                         return true;
                 }
@@ -83,5 +85,11 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(getApplicationContext(), e.getMessage(),Toast.LENGTH_SHORT).show();
         }
 
+    }
+
+    public String getUser(){
+        Bundle data = getIntent().getExtras();
+        username = data.getString("user");
+        return username;
     }
 }
