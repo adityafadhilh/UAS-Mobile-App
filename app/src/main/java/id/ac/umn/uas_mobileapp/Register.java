@@ -81,7 +81,7 @@ public class Register extends AppCompatActivity {
                 }else{
                     user.setName(userStr);
                     user.setPass(passStr);
-                    ref.child(String.valueOf(id+1)).setValue(user);
+                    ref.push().setValue(user);
                     Intent i = new Intent(getApplicationContext(), Login.class);
                     Bundle bundle = new Bundle();
                     bundle.putString("username", userStr);
