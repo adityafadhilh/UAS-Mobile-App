@@ -15,6 +15,8 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Date;
 
@@ -25,6 +27,8 @@ public class ExpenseFragment extends Fragment {
     private FloatingActionButton add;
     private Button dateBtn;
     private Date date;
+    private DatabaseReference ref = FirebaseDatabase.getInstance().getReference();
+    private TransaksiData data = new TransaksiData();
     int nominal = 0;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -70,6 +74,13 @@ public class ExpenseFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 nominal = Integer.parseInt(inputNominal.getText().toString());
+
+                data.setTipeTransaksi(tipeTransaksi);
+                data.setKategori(kategoriInput);
+                data.setTipeSaldo(saldoInput);
+                data.setNominal(nominal);
+
+
                 Intent intent = new Intent(getContext(), Transaksi.class);
                 Bundle bundle = new Bundle();
                 bundle.putString("tipeTransaksi", tipeTransaksi);
