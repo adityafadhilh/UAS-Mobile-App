@@ -13,9 +13,9 @@ import java.util.List;
 public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     Context context;
-    List<Item> items;
+    List<TransaksiData> items;
 
-    public MyAdapter(Context context, List<Item> items) {
+    public MyAdapter(Context context, List<TransaksiData> items) {
         this.context = context;
         this.items = items;
     }
@@ -28,8 +28,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        holder.typeView.setText(items.get(position).getType());
-        holder.nominalView.setText(items.get(position).getNominal());
+        holder.typeView.setText(items.get(position).getKategori());
+        holder.nominalView.setText(String.valueOf(items.get(position).getNominal()));
         holder.imageView.setImageResource(items.get(position).getImage());
     }
 

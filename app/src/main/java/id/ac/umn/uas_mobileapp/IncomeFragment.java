@@ -90,14 +90,28 @@ public class IncomeFragment extends Fragment {
                 transaksiData.setTipeSaldo(saldoInput);
                 transaksiData.setNominal(nominal);
 
+                int img = 0;
+
+                if(kategoriInput.equals("Transportasi"))
+                    img = R.drawable.akomodasi;
+                if(kategoriInput.equals("Tempat Tinggal"))
+                    img = R.drawable.rumah;
+                if(kategoriInput.equals("Makanan"))
+                    img = R.drawable.makanan;
+                if(kategoriInput.equals("Tagihan"))
+                    img = R.drawable.tagihan;
+
+                transaksiData.setImage(img);
+
                 ref.child(username).child("transaksi").push().setValue(transaksiData);
+
                 Intent intent = new Intent(getContext(), Transaksi.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("tipeTransaksi", tipeTransaksi);
-                bundle.putInt("nominal",nominal);
-                bundle.putString("kategori",kategoriInput);
-                bundle.putString("saldo", saldoInput);
-                intent.putExtras(bundle);
+//                Bundle bundle = new Bundle();
+//                bundle.putString("tipeTransaksi", tipeTransaksi);
+//                bundle.putInt("nominal",nominal);
+//                bundle.putString("kategori",kategoriInput);
+//                bundle.putString("saldo", saldoInput);
+                intent.putExtra("user", username);
                 startActivity(intent);
             }
         });

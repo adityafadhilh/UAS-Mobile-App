@@ -32,7 +32,7 @@ public class Transaksi extends AppCompatActivity {
     int nominal;
     String kategori, saldo, tipeTransaksi;
     String username;
-    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
+//    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +42,8 @@ public class Transaksi extends AppCompatActivity {
         username = getUser();
 
         hariFragment.setUsername(username);
+
+
 
         ActionBar actionBar;
         actionBar = getSupportActionBar();
@@ -170,7 +172,7 @@ public class Transaksi extends AppCompatActivity {
     }
 
 //    public void getData(String username){
-//        ref.child(username).child("transaksi").child("expense").addValueEventListener(new ValueEventListener() {
+//        ref.child(username).child("transaksi").addValueEventListener(new ValueEventListener() {
 //            @Override
 //            public void onDataChange(@NonNull DataSnapshot snapshot) {
 //                for(DataSnapshot dataSnapshot : snapshot.getChildren()){
@@ -183,6 +185,6 @@ public class Transaksi extends AppCompatActivity {
 //            public void onCancelled(@NonNull DatabaseError error) {
 //
 //            }
-//        })
+//        });
 //    }
 }

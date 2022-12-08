@@ -8,6 +8,7 @@ public class TransaksiData{
     private String tipeSaldo;
     private int nominal;
     private Date date;
+    private int image;
 
     public TransaksiData(){}
 
@@ -25,6 +26,14 @@ public class TransaksiData{
 
     public void setNominal(int nominal) {
         this.nominal = nominal;
+    }
+
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public int getImage() {
+        return image;
     }
 
     public void setDate(Date date) {
