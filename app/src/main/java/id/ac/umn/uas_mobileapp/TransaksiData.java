@@ -2,12 +2,13 @@ package id.ac.umn.uas_mobileapp;
 
 import java.util.Date;
 
-public class TransaksiData {
+public class TransaksiData{
     private String tipeTransaksi;
     private String kategori;
     private String tipeSaldo;
     private int nominal;
     private Date date;
+    private int image;
 
     public TransaksiData(){}
 
@@ -27,7 +28,35 @@ public class TransaksiData {
         this.nominal = nominal;
     }
 
+    public void setImage(int image) {
+        this.image = image;
+    }
+
+    public int getImage() {
+        return image;
+    }
+
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public String getTipeTransaksi() {
+        return tipeTransaksi;
+    }
+
+    public String getKategori() {
+        return kategori;
+    }
+
+    public String getTipeSaldo() {
+        return tipeSaldo;
+    }
+
+    public int getNominal() {
+        return nominal;
+    }
+
+    public Date getDate() {
+        return date;
     }
 }

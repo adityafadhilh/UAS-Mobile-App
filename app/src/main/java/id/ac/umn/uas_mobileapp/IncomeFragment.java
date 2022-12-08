@@ -19,6 +19,8 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -28,9 +30,13 @@ public class IncomeFragment extends Fragment {
     private Button dateBtn;
     private Spinner saldoSpinner, kategoriSpinner;
     private String tipeTransaksi, kategoriInput, saldoInput;
+    private String username;
     private Date date;
+    private TransaksiData transaksiData;
     int nominal;
     FloatingActionButton add;
+    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -70,18 +76,42 @@ public class IncomeFragment extends Fragment {
             }
         });
 
+        transaksiData = new TransaksiData();
+
         add = view.findViewById(R.id.addIncome);
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 nominal = Integer.parseInt(inputNominal.getText().toString());
+
+                transaksiData.setTipeTransaksi(tipeTransaksi);
+                transaksiData.setKategori(kategoriInput);
+                transaksiData.setTipeSaldo(saldoInput);
+                transaksiData.setNominal(nominal);
+
+                int img = 0;
+
+                if(kategoriInput.equals("Transportasi"))
+                    img = R.drawable.akomodasi;
+                if(kategoriInput.equals("Tempat Tinggal"))
+                    img = R.drawable.rumah;
+                if(kategoriInput.equals("Makanan"))
+                    img = R.drawable.makanan;
+                if(kategoriInput.equals("Tagihan"))
+                    img = R.drawable.tagihan;
+
+                transaksiData.setImage(img);
+
+                ref.child(username).child("transaksi").push().setValue(transaksiData);
+
                 Intent intent = new Intent(getContext(), Transaksi.class);
-                Bundle bundle = new Bundle();
-                bundle.putString("tipeTransaksi", tipeTransaksi);
-                bundle.putInt("nominal",nominal);
-                bundle.putString("kategori",kategoriInput);
-                bundle.putString("saldo", saldoInput);
-                intent.putExtras(bundle);
+//                Bundle bundle = new Bundle();
+//                bundle.putString("tipeTransaksi", tipeTransaksi);
+//                bundle.putInt("nominal",nominal);
+//                bundle.putString("kategori",kategoriInput);
+//                bundle.putString("saldo", saldoInput);
+                intent.putExtra("user", username);
                 startActivity(intent);
             }
         });
@@ -99,6 +129,10 @@ public class IncomeFragment extends Fragment {
     public void showDatePickerDialog(View v) {
         DialogFragment newFragment = new DatePickerFragment();
         newFragment.show(getFragmentManager(), "datePicker");
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
     }
 }
 

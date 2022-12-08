@@ -15,6 +15,11 @@ import android.widget.Toast;
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class Transaksi extends AppCompatActivity {
 
@@ -27,13 +32,18 @@ public class Transaksi extends AppCompatActivity {
     int nominal;
     String kategori, saldo, tipeTransaksi;
     String username;
+//    DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_transaksi);
 
-//        username = getUser();
+        username = getUser();
+
+        hariFragment.setUsername(username);
+
+
 
         ActionBar actionBar;
         actionBar = getSupportActionBar();
@@ -112,44 +122,38 @@ public class Transaksi extends AppCompatActivity {
 
     }
 
-    @Override
-    protected void onPostResume() {
-        super.onPostResume();
-        Bundle data = getIntent().getExtras();
-        if(data!=null){
-            nominal = data.getInt("nominal");
-            tipeTransaksi = data.getString("tipeTransaksi");
-            kategori = data.getString("kategori");
-            saldo = data.getString("saldo");
-
-            int img = 0;
-
-            if(kategori.equals("Transportasi"))
-                img = R.drawable.akomodasi;
-            if(kategori.equals("Tempat Tinggal"))
-                img = R.drawable.rumah;
-            if(kategori.equals("Makanan"))
-                img = R.drawable.makanan;
-            if(kategori.equals("Tagihan"))
-                img = R.drawable.tagihan;
-
-//            img = R.drawable.minus;
-
-            String angka = "";
-
-            if(tipeTransaksi.equals("Expense"))
-                angka = "-" + String.valueOf(nominal);
-            if(tipeTransaksi.equals("Income"))
-                angka = "+" + String.valueOf(nominal);
-
-            hariFragment.items.add(new Item(kategori, angka, img));
-        }
-    }
-
-//    public String getUser(){
+//    @Override
+//    protected void onPostResume() {
+//        super.onPostResume();
 //        Bundle data = getIntent().getExtras();
-//        username = data.getString("user");
-//        return username;
+//        if(data!=null){
+//            nominal = data.getInt("nominal");
+//            tipeTransaksi = data.getString("tipeTransaksi");
+//            kategori = data.getString("kategori");
+//            saldo = data.getString("saldo");
+//
+//            int img = 0;
+//
+//            if(kategori.equals("Transportasi"))
+//                img = R.drawable.akomodasi;
+//            if(kategori.equals("Tempat Tinggal"))
+//                img = R.drawable.rumah;
+//            if(kategori.equals("Makanan"))
+//                img = R.drawable.makanan;
+//            if(kategori.equals("Tagihan"))
+//                img = R.drawable.tagihan;
+//
+////            img = R.drawable.minus;
+//
+//            String angka = "";
+//
+//            if(tipeTransaksi.equals("Expense"))
+//                angka = "-" + String.valueOf(nominal);
+//            if(tipeTransaksi.equals("Income"))
+//                angka = "+" + String.valueOf(nominal);
+//
+//            hariFragment.items.add(new Item(kategori, angka, img));
+//        }
 //    }
 
     @Override
@@ -161,4 +165,26 @@ public class Transaksi extends AppCompatActivity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public String getUser(){
+        Bundle data = getIntent().getExtras();
+        return data.getString("user");
+    }
+
+//    public void getData(String username){
+//        ref.child(username).child("transaksi").addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                for(DataSnapshot dataSnapshot : snapshot.getChildren()){
+//                    TransaksiData transaksiData = dataSnapshot.getValue(TransaksiData.class);
+//                    hariFragment.items.add(transaksiData);
+//                }
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
+//    }
 }

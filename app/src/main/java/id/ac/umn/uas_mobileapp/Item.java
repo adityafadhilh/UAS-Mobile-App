@@ -6,6 +6,7 @@ public class Item {
     String nominal;
     int image;
 
+
     public Item(String type, String nominal, int image) {
         this.type = type;
         this.nominal = nominal;
