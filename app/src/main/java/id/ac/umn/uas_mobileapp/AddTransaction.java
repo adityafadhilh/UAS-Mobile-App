@@ -42,7 +42,7 @@ public class AddTransaction extends AppCompatActivity {
         actionBar.setTitle("Tambah Transaksi");
         actionBar.setDisplayHomeAsUpEnabled(true);
         ColorDrawable colorDrawable
-                = new ColorDrawable(getResources().getColor(R.color.green));
+                = new ColorDrawable(getResources().getColor(R.color.light_blue));
 
         actionBar.setBackgroundDrawable(colorDrawable);
 
