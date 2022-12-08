@@ -32,17 +32,13 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-//        nama = findViewById(R.id.nama);
-//
-//        username = getUsername();
-//
-//        getData(username);
-//
-//        nama.setText(fName + " " + lName);
-//
-//        Toast.makeText(this, username, Toast.LENGTH_SHORT).show();
+        getData();
 
+        nama = findViewById(R.id.nama);
 
+        nama.setText(fName + " " + lName);
+
+        Toast.makeText(this, fName + " " + lName, Toast.LENGTH_SHORT).show();
 
         ActionBar actionBar;
         actionBar = getSupportActionBar();
@@ -75,36 +71,11 @@ public class Profile extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    public String getUsername(){
-//        Bundle data = getIntent().getExtras();
-//        username = data.getString("user");
-//        return username;
-//    }
-//
-//    public void getData(String username){
-//        mDatabase.child(username).child("firstName").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-//            @Override
-//            public void onComplete(@NonNull Task<DataSnapshot> task) {
-//                if (!task.isSuccessful()) {
-//                    Log.e("firebase", "Error getting data", task.getException());
-//                }
-//                else {
-//                    fName = String.valueOf(task.getResult().getValue());
-//                }
-//            }
-//        });
-//
-//        mDatabase.child(username).child("lastName").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
-//            @Override
-//            public void onComplete(@NonNull Task<DataSnapshot> task) {
-//                if (!task.isSuccessful()) {
-//                    Log.e("firebase", "Error getting data", task.getException());
-//                }
-//                else {
-//                    lName = String.valueOf(task.getResult().getValue());
-//                }
-//            }
-//        });
-//    }
+    public void getData(){
+        Bundle data = getIntent().getExtras();
+        username = data.getString("username");
+        fName = data.getString("firstName");
+        lName = data.getString("lastName");
+    }
 
 }

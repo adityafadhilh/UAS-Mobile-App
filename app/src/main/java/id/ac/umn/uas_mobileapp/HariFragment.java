@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
+import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
@@ -23,6 +24,7 @@ public class HariFragment extends Fragment {
     RecyclerView recyclerView;
     MyAdapter myAdapter;
     ArrayList<Item> items = new ArrayList<Item>();
+    String username;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -40,6 +42,7 @@ public class HariFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 Intent i = new Intent(getContext(), AddTransaction.class);
+                i.putExtra("user", username);
                 startActivity(i);
             }
         });
@@ -61,4 +64,9 @@ public class HariFragment extends Fragment {
 //        items.add(new Item("Hadiah","200.000",R.drawable.plus));
 //
 //    }
+
+    public void setUsername(String user){
+        username = user;
+    }
+
 }

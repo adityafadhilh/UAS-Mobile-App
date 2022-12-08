@@ -20,6 +20,7 @@ public class AddTransaction extends AppCompatActivity {
     EditText inputNominal, date;
     Spinner saldoSpinner, kategori;
     String tanggal, kategoriInput, saldoInput;
+    String username;
     Button expense, income;
     float nominal;
 
@@ -30,6 +31,12 @@ public class AddTransaction extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_transaction);
+
+        username = getUser();
+
+        expenseFragment.setUsername(username);
+
+        incomeFragment.setUsername(username);
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("Tambah Transaksi");
@@ -71,5 +78,11 @@ public class AddTransaction extends AppCompatActivity {
                 return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public String getUser(){
+        Bundle data = getIntent().getExtras();
+        username = data.getString("user");
+        return username;
     }
 }

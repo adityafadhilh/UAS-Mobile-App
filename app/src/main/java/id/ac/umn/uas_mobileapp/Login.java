@@ -49,19 +49,6 @@ public class Login extends AppCompatActivity {
             }
         });
 
-//        // Data untuk mengecek login
-//
-//        Bundle data = getIntent().getExtras();
-//
-//        if(data != null){
-//            userCheck = data.getString("username");
-//            passCheck = data.getString("pass");
-//        }else{
-//            userCheck = "john doe";
-//            passCheck = "test";
-//        }
-
-
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -71,23 +58,6 @@ public class Login extends AppCompatActivity {
             }
         });
     }
-
-//    public void checkLogin(String username, String password) {
-//        if(username.equals(userCheck)){
-//            if(password.equals(passCheck)){
-//                Intent i = new Intent(getApplicationContext(), MainActivity.class);
-//                Bundle bundle = new Bundle();
-//                bundle.putString("user", userStr);
-//                bundle.putString("pass", passStr);
-//                i.putExtras(bundle);
-//                startActivity(i);
-//            }else{
-//                Toast.makeText(Login.this, "username atau password salah", Toast.LENGTH_SHORT).show();
-//            }
-//        }else{
-//            Toast.makeText(Login.this, "username atau password salah", Toast.LENGTH_SHORT).show();
-//        }
-//    }
 
     public void checkData(String username, String password){
         mDatabase.child(username).child("pass").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {

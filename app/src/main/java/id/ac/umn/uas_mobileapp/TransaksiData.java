@@ -2,7 +2,7 @@ package id.ac.umn.uas_mobileapp;
 
 import java.util.Date;
 
-public class TransaksiData {
+public class TransaksiData{
     private String tipeTransaksi;
     private String kategori;
     private String tipeSaldo;
@@ -29,5 +29,25 @@ public class TransaksiData {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    public String getTipeTransaksi() {
+        return tipeTransaksi;
+    }
+
+    public String getKategori() {
+        return kategori;
+    }
+
+    public String getTipeSaldo() {
+        return tipeSaldo;
+    }
+
+    public int getNominal() {
+        return nominal;
+    }
+
+    public Date getDate() {
+        return date;
     }
 }

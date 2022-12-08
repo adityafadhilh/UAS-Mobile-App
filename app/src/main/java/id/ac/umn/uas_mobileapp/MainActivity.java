@@ -1,5 +1,6 @@
 package id.ac.umn.uas_mobileapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,20 +9,26 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationBarView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;
-    String username;
+    String username, fName, lName;
 
     Home_fragment homeFragment = new Home_fragment();
     Transaksi_fragment transaksiFragment = new Transaksi_fragment();
@@ -34,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         username = getUser();
+        getData(username);
 //        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 //        getSupportActionBar().hide();
 
@@ -58,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                         return (true);
                     case R.id.transaksi:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,transaksiFragment).commit();
-                        startActivity(new Intent(getApplicationContext(),Transaksi.class)/*.putExtra("user", username)*/);
+                        startActivity(new Intent(getApplicationContext(),Transaksi.class).putExtra("user", username));
                         return true;
                     case R.id.kamera:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
@@ -66,8 +74,12 @@ public class MainActivity extends AppCompatActivity {
                         return true;
                     case R.id.profile:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
-                        startActivity(new Intent(getApplicationContext(),Profile.class)/*.putExtra("user", username)*/);
-                        overridePendingTransition(0,0);
+                        Bundle data = new Bundle();
+                        data.putString("firstName",fName);
+                        data.putString("lastName", lName);
+                        data.putString("username", username);
+                        startActivity(new Intent(getApplicationContext(),Profile.class).putExtras(data));
+//                        overridePendingTransition(0,0);
                         return true;
                 }
                 return false;
@@ -87,9 +99,42 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
+    protected void onPostResume() {
+        super.onPostResume();
+//        Toast.makeText(this, username, Toast.LENGTH_SHORT).show();
+    }
+
+    public void getData(String username){
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
+        ref.child(username).child("firstName").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                } else {
+                    Log.d("firebase", String.valueOf(task.getResult().getValue()));
+                    fName = String.valueOf(task.getResult().getValue());
+                }
+            }
+        });
+
+        ref.child(username).child("lastName").get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                } else {
+                    Log.d("firebase", String.valueOf(task.getResult().getValue()));
+                    lName = String.valueOf(task.getResult().getValue());
+                }
+            }
+        });
+
+    }
+
     public String getUser(){
         Bundle data = getIntent().getExtras();
-        username = data.getString("user");
-        return username;
+        return data.getString("user");
     }
 }
