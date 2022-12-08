@@ -73,12 +73,16 @@ public class MainActivity extends AppCompatActivity {
                         useCamera();
                         return true;
                     case R.id.profile:
-//                        getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
-                        Bundle data = new Bundle();
-                        data.putString("firstName",fName);
-                        data.putString("lastName", lName);
-                        data.putString("username", username);
-                        startActivity(new Intent(getApplicationContext(),Profile.class).putExtras(data));
+                        profileFragment.setUsername(username);
+                        profileFragment.setfName(fName);
+                        profileFragment.setlName(lName);
+                        actionBar.setTitle("Profile");
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
+//                        Bundle data = new Bundle();
+//                        data.putString("firstName",fName);
+//                        data.putString("lastName", lName);
+//                        data.putString("username", username);
+//                        startActivity(new Intent(getApplicationContext(),Profile.class).putExtras(data));
 //                        overridePendingTransition(0,0);
                         return true;
                 }

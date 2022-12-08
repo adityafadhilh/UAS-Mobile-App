@@ -2960,6 +2960,8 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id nama
+id namaBelakang
+id namaDepan
 id nama_pengguna
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
