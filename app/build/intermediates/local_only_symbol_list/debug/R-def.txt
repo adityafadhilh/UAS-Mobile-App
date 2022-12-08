@@ -82,6 +82,8 @@ id logo
 id logout
 id minggu
 id nama
+id namaBelakang
+id namaDepan
 id nama_pengguna
 id nominal
 id nominalIncome
