@@ -103,9 +103,9 @@ public class IncomeFragment extends Fragment {
 
                 transaksiData.setImage(img);
 
-                ref.child(username).child("transaksi").push().setValue(transaksiData);
+                ref.child(username).child("transaksi").child("income").push().setValue(transaksiData);
 
-                Intent intent = new Intent(getContext(), Transaksi.class);
+                Intent intent = new Intent(getContext(), MainActivity.class);
 //                Bundle bundle = new Bundle();
 //                bundle.putString("tipeTransaksi", tipeTransaksi);
 //                bundle.putInt("nominal",nominal);

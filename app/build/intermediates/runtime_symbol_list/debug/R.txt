@@ -2547,6 +2547,7 @@ int drawable design_ic_visibility_off 0x7f080076
 int drawable design_password_eye 0x7f080077
 int drawable design_snackbar_background 0x7f080078
 int drawable edittext_round 0x7f080079
+int drawable expense 0x7f0800c4
 int drawable googleg_disabled_color_18 0x7f08007a
 int drawable googleg_standard_color_18 0x7f08007b
 int drawable ic_baseline_add_24 0x7f08007c
@@ -2567,6 +2568,7 @@ int drawable ic_mtrl_checked_circle 0x7f08008a
 int drawable ic_mtrl_chip_checked_black 0x7f08008b
 int drawable ic_mtrl_chip_checked_circle 0x7f08008c
 int drawable ic_mtrl_chip_close_circle 0x7f08008d
+int drawable income 0x7f0800c5
 int drawable line 0x7f08008e
 int drawable logo 0x7f08008f
 int drawable m3_appbar_background 0x7f080090
@@ -2826,6 +2828,7 @@ int id enterAlwaysCollapsed 0x7f0900c9
 int id exitUntilCollapsed 0x7f0900ca
 int id expand_activities_button 0x7f0900cb
 int id expanded_menu 0x7f0900cc
+int id expense 0x7f090220
 int id fade 0x7f0900cd
 int id fill 0x7f0900ce
 int id fill_horizontal 0x7f0900cf
@@ -2872,6 +2875,7 @@ int id imageView 0x7f0900f7
 int id imageview 0x7f0900f8
 int id immediateStop 0x7f0900f9
 int id included 0x7f0900fa
+int id income 0x7f090221
 int id info 0x7f0900fb
 int id inputName 0x7f0900fc
 int id inputPass 0x7f0900fd
@@ -3130,6 +3134,8 @@ int id title_template 0x7f0901f9
 int id toggle 0x7f0901fa
 int id top 0x7f0901fb
 int id topPanel 0x7f0901fc
+int id totalExpense 0x7f090222
+int id totalIncome 0x7f090223
 int id touch_outside 0x7f0901fd
 int id transaksi 0x7f0901fe
 int id transitionToEnd 0x7f0901ff
@@ -3346,6 +3352,8 @@ int layout profile_fragment 0x7f0c0070
 int layout select_dialog_item_material 0x7f0c0071
 int layout select_dialog_multichoice_material 0x7f0c0072
 int layout select_dialog_singlechoice_material 0x7f0c0073
+int layout show_expense_fragment 0x7f0c0086
+int layout show_income_fragment 0x7f0c0087
 int layout support_simple_spinner_dropdown_item 0x7f0c0074
 int layout test_action_chip 0x7f0c0075
 int layout test_chip_zero_corner_radius 0x7f0c0076
@@ -3366,6 +3374,7 @@ int layout text_view_without_line_height 0x7f0c0084
 int layout transaksi_fragment 0x7f0c0085
 int menu bottom_nav_menu 0x7f0d0000
 int menu bottom_navmenu 0x7f0d0001
+int menu bottom_transaksi 0x7f0d0003
 int menu calender 0x7f0d0002
 int mipmap ic_launcher 0x7f0e0000
 int mipmap ic_launcher_round 0x7f0e0001
