@@ -46,8 +46,11 @@ public class AddTransaction extends AppCompatActivity {
 
         actionBar.setBackgroundDrawable(colorDrawable);
 
-        getSupportFragmentManager().beginTransaction().replace(R.id.contain, expenseFragment).commit();
+//        String tipe;
+//        Bundle bundle = getIntent().getExtras();
+//        tipe = bundle.getString("tipe");
 
+        getSupportFragmentManager().beginTransaction().replace(R.id.contain, expenseFragment).commit();
         expense = findViewById(R.id.btnExpense);
         expense.setOnClickListener(new View.OnClickListener() {
             @Override

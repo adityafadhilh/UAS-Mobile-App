@@ -62,11 +62,14 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(MenuItem item) {
                 switch (item.getItemId()){
                     case R.id.home:
+                        actionBar.setTitle("Home");
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,homeFragment).commit();
                         return (true);
                     case R.id.transaksi:
-//                        getSupportFragmentManager().beginTransaction().replace(R.id.container,transaksiFragment).commit();
-                        startActivity(new Intent(getApplicationContext(),Transaksi.class).putExtra("user", username));
+                        actionBar.setTitle("Transaksi");
+                        transaksiFragment.setUsername(username);
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,transaksiFragment).commit();
+//                        startActivity(new Intent(getApplicationContext(),Transaksi.class).putExtra("user", username));
                         return true;
                     case R.id.kamera:
 //                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();

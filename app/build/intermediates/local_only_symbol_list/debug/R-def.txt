@@ -30,6 +30,7 @@ color white
 color yellow
 drawable akomodasi
 drawable edittext_round
+drawable expense
 drawable ic_baseline_add_24
 drawable ic_baseline_calendar_month_24
 drawable ic_baseline_calendar_today_24
@@ -39,6 +40,7 @@ drawable ic_baseline_person_24
 drawable ic_baseline_photo_camera_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+drawable income
 drawable line
 drawable logo
 drawable makanan
@@ -64,12 +66,14 @@ id container
 id daftar
 id date
 id dateIncome
+id expense
 id firstname
 id floatingActionButton
 id hari
 id home
 id imageView
 id imageview
+id income
 id inputName
 id inputPass
 id kamera
@@ -101,6 +105,8 @@ id textView
 id textView1
 id textView2
 id textView3
+id totalExpense
+id totalIncome
 id transaksi
 id type
 layout activity_add_transaction
@@ -118,9 +124,12 @@ layout fragment_minggu
 layout home_fragment
 layout item_view
 layout profile_fragment
+layout show_expense_fragment
+layout show_income_fragment
 layout transaksi_fragment
 menu bottom_nav_menu
 menu bottom_navmenu
+menu bottom_transaksi
 menu calender
 mipmap ic_launcher
 mipmap ic_launcher_round
