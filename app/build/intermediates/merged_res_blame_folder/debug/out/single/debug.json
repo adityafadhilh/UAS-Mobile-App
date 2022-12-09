@@ -24,12 +24,12 @@
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-35:\\drawable_ic_baseline_person_24.xml.flat",
-        "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-37:\\drawable\\ic_baseline_person_24.xml"
+        "merged": "id.ac.umn.uas_mobileapp-merged_res-35:/layout_activity_register.xml.flat",
+        "source": "id.ac.umn.uas_mobileapp-main-37:/layout/activity_register.xml"
     },
     {
-        "merged": "id.ac.umn.uas_mobileapp-merged_res-35:/layout_profile_fragment.xml.flat",
-        "source": "id.ac.umn.uas_mobileapp-main-37:/layout/profile_fragment.xml"
+        "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-35:\\drawable_ic_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-37:\\drawable\\ic_baseline_person_24.xml"
     },
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-35:\\layout_activity_transaksi.xml.flat",

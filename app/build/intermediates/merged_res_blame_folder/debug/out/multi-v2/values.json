@@ -97,22 +97,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\afher\\OneDrive\\Documents\\Programming\\MobileAppDevelopment\\UAS-Mobile-App\\app\\src\\main\\res\\values\\themes.xml",
+                    "source": "C:\\Users\\afher\\Documents\\Programming\\Android\\UAS-Mobile-App\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endLines": "14",
-                        "endColumns": "12",
-                        "endOffsets": "836"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,199,326,408,512,621,741,844",
+                        "endColumns": "143,126,81,103,108,119,102,79",
+                        "endOffsets": "194,321,403,507,616,736,839,919"
                     },
                     "to": {
-                        "startLines": "5872",
-                        "startColumns": "4",
-                        "startOffsets": "393301",
-                        "endLines": "5884",
-                        "endColumns": "12",
-                        "endOffsets": "393900"
+                        "startLines": "1670,1675,1676,1677,1678,1679,1680,1761",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "103045,103657,103784,103866,103970,104079,104199,116723",
+                        "endColumns": "143,126,81,103,108,119,102,79",
+                        "endOffsets": "103184,103779,103861,103965,104074,104194,104297,116798"
                     }
                 },
                 {
@@ -132,23 +130,6 @@
                         "endLines": "133,136,953,10093",
                         "endColumns": "55,47,51,24",
                         "endOffsets": "6275,6431,54100,611407"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\afher\\OneDrive\\Documents\\Programming\\MobileAppDevelopment\\UAS-Mobile-App\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "7,9,22,20,21,24,26,25,12,11,32,10,15,16,29,2,3,4,13,5,6,31,30,8,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "293,379,816,716,764,865,957,910,500,460,1125,419,624,664,1006,57,105,153,543,201,247,1084,1045,336,582",
-                        "endColumns": "41,38,45,46,50,43,43,45,41,38,38,39,38,44,37,46,46,46,37,44,44,39,37,41,40",
-                        "endOffsets": "330,413,857,758,810,904,996,951,537,494,1159,454,658,704,1039,99,147,195,576,241,287,1119,1078,373,618"
-                    },
-                    "to": {
-                        "startLines": "590,591,604,605,606,607,608,609,618,619,663,664,665,668,827,836,837,838,839,850,851,853,856,857,858",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "29161,29203,30132,30178,30225,30276,30320,30364,31081,31123,34131,34170,34210,34384,45863,46489,46536,46583,46630,47365,47410,47497,47658,47696,47738",
-                        "endColumns": "41,38,45,46,50,43,43,45,41,38,38,39,38,44,37,46,46,46,37,44,44,39,37,41,40",
-                        "endOffsets": "29198,29237,30173,30220,30271,30315,30359,30405,31118,31157,34165,34205,34244,34424,45896,46531,46578,46625,46663,47405,47450,47532,47691,47733,47774"
                     }
                 },
                 {
@@ -202,6 +183,23 @@
                         "startOffsets": "93862",
                         "endColumns": "42",
                         "endOffsets": "93900"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\afher\\Documents\\Programming\\Android\\UAS-Mobile-App\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "7,9,22,20,21,24,26,25,12,11,32,10,15,16,29,2,3,4,13,5,6,31,30,8,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "293,379,816,716,764,865,957,910,500,460,1125,419,624,664,1006,57,105,153,543,201,247,1084,1045,336,582",
+                        "endColumns": "41,38,45,46,50,43,43,45,41,38,38,39,38,44,37,46,46,46,37,44,44,39,37,41,40",
+                        "endOffsets": "330,413,857,758,810,904,996,951,537,494,1159,454,658,704,1039,99,147,195,576,241,287,1119,1078,373,618"
+                    },
+                    "to": {
+                        "startLines": "590,591,604,605,606,607,608,609,618,619,663,664,665,668,827,836,837,838,839,850,851,853,856,857,858",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "29161,29203,30132,30178,30225,30276,30320,30364,31081,31123,34131,34170,34210,34384,45863,46489,46536,46583,46630,47365,47410,47497,47658,47696,47738",
+                        "endColumns": "41,38,45,46,50,43,43,45,41,38,38,39,38,44,37,46,46,46,37,44,44,39,37,41,40",
+                        "endOffsets": "29198,29237,30173,30220,30271,30315,30359,30405,31118,31157,34165,34205,34244,34424,45896,46531,46578,46625,46663,47405,47450,47532,47691,47733,47774"
                     }
                 },
                 {
@@ -273,20 +271,22 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\afher\\OneDrive\\Documents\\Programming\\MobileAppDevelopment\\UAS-Mobile-App\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml",
+                    "source": "C:\\Users\\afher\\Documents\\Programming\\Android\\UAS-Mobile-App\\app\\src\\main\\res\\values\\themes.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,199,326,408,512,621,741,844",
-                        "endColumns": "143,126,81,103,108,119,102,79",
-                        "endOffsets": "194,321,403,507,616,736,839,919"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endLines": "14",
+                        "endColumns": "12",
+                        "endOffsets": "836"
                     },
                     "to": {
-                        "startLines": "1670,1675,1676,1677,1678,1679,1680,1761",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "103045,103657,103784,103866,103970,104079,104199,116723",
-                        "endColumns": "143,126,81,103,108,119,102,79",
-                        "endOffsets": "103184,103779,103861,103965,104074,104194,104297,116798"
+                        "startLines": "5872",
+                        "startColumns": "4",
+                        "startOffsets": "393301",
+                        "endLines": "5884",
+                        "endColumns": "12",
+                        "endOffsets": "393900"
                     }
                 },
                 {
@@ -421,25 +421,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\afher\\OneDrive\\Documents\\Programming\\MobileAppDevelopment\\UAS-Mobile-App\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "11,18,6,1,2,3,4,5",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "467,686,325,16,67,127,196,256",
-                        "endLines": "17,23,10,1,2,3,4,5",
-                        "endColumns": "19,19,19,50,59,68,59,68",
-                        "endOffsets": "681,863,462,62,122,191,251,320"
-                    },
-                    "to": {
-                        "startLines": "2,9,15,1643,1764,1765,1766,1767",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "150,369,551,99717,116927,116987,117056,117116",
-                        "endLines": "8,14,19,1643,1764,1765,1766,1767",
-                        "endColumns": "19,19,19,50,59,68,59,68",
-                        "endOffsets": "364,546,688,99763,116982,117051,117111,117180"
-                    }
-                },
-                {
                     "source": "C:\\Users\\afher\\.gradle\\caches\\transforms-3\\546eed4977e328ba954a423e08b4e047\\transformed\\appcompat-resources-1.5.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -456,6 +437,25 @@
                         "endLines": "8212,8218,8228,11570,11574",
                         "endColumns": "24,24,24,24,24",
                         "endOffsets": "540768,540946,541230,663782,663909"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\afher\\Documents\\Programming\\Android\\UAS-Mobile-App\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "11,18,6,1,2,3,4,5",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "478,704,331,17,69,130,200,261",
+                        "endLines": "17,23,10,1,2,3,4,5",
+                        "endColumns": "19,19,19,50,59,68,59,68",
+                        "endOffsets": "698,886,472,63,124,194,255,325"
+                    },
+                    "to": {
+                        "startLines": "2,9,15,1643,1764,1765,1766,1767",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "150,369,551,99717,116927,116987,117056,117116",
+                        "endLines": "8,14,19,1643,1764,1765,1766,1767",
+                        "endColumns": "19,19,19,50,59,68,59,68",
+                        "endOffsets": "364,546,688,99763,116982,117051,117111,117180"
                     }
                 }
             ]
