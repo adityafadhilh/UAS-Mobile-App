@@ -70,10 +70,10 @@ public class Home_fragment extends Fragment {
                     persenTransportasi = (float)transportasi / (float)totalData * 100;
                 }
 
-                tempatTinggalV.setText(persenTempat + "%");
-                makananV.setText(persenMakanan + "%");
-                tagihanV.setText(persenTagihan + "%");
-                transportasiV.setText(persenTransportasi + "%");
+                tempatTinggalV.setText(String.format("%.2f", persenTempat) + "%");
+                makananV.setText(String.format("%.2f", persenMakanan) + "%");
+                tagihanV.setText(String.format("%.2f", persenTagihan) + "%");
+                transportasiV.setText(String.format("%.2f", persenTransportasi) + "%");
 
                 setData(persenTempat, persenMakanan, persenTagihan, persenTransportasi);
             }
