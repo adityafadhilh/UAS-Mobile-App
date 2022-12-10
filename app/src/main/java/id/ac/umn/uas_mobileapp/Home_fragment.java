@@ -88,7 +88,6 @@ public class Home_fragment extends Fragment {
     }
 
     private void setData(float persenTempat, float persenMakanan, float persenTagihan, float persenTransportasi) {
-        // Set the data and color to the pie chart
         pieChart.addPieSlice(
                 new PieModel(
                         "Tempat Tinggal",
@@ -110,7 +109,6 @@ public class Home_fragment extends Fragment {
                         (int) persenTransportasi,
                         Color.parseColor("#29B6F6")));
 
-        // To animate the pie chart
         pieChart.startAnimation();
     }
 
