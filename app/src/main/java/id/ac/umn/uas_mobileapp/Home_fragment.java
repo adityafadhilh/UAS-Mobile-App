@@ -83,7 +83,6 @@ public class Home_fragment extends Fragment {
             }
         });
 
-
         return view;
     }
 
