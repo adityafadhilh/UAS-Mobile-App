@@ -2795,6 +2795,7 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id details
 id dialog_button
 id dimensions
 id direct
@@ -2905,6 +2906,7 @@ id list_item
 id login
 id logo
 id logout
+id makanan
 id masked
 id match_constraint
 id match_parent
@@ -3103,6 +3105,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tagihan
+id tempatTinggal
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -3146,6 +3150,7 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id transportasi
 id triangle
 id type
 id unchecked
