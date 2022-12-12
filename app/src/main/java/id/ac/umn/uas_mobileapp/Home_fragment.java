@@ -25,9 +25,10 @@ import java.util.ArrayList;
 
 public class Home_fragment extends Fragment {
     PieChart pieChart;
-    TextView tempatTinggalV, makananV, tagihanV, transportasiV;
+    TextView tempatTinggalV, makananV, tagihanV, transportasiV, jumlahPengeluranView;
     String username;
     float persenTempat, persenMakanan, persenTagihan, persenTransportasi;
+    int jumlahPengeluaran;
     DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -39,6 +40,7 @@ public class Home_fragment extends Fragment {
         makananV = view.findViewById(R.id.makanan);
         tagihanV = view.findViewById(R.id.tagihan);
         transportasiV = view.findViewById(R.id.transportasi);
+        jumlahPengeluranView = view.findViewById(R.id.jumlahPengeluaran);
 
         ref.child(username).child("transaksi").child("expense").addValueEventListener(new ValueEventListener() {
 
@@ -49,14 +51,14 @@ public class Home_fragment extends Fragment {
                 for(DataSnapshot dataSnapshot : snapshot.getChildren()){
                     TransaksiData transaksiData = dataSnapshot.getValue(TransaksiData.class);
                     if(transaksiData.getKategori().equals("Tempat Tinggal"))
-                        tempatTinggal += 1;
+                        tempatTinggal += transaksiData.getNominal();
                     if(transaksiData.getKategori().equals("Makanan"))
-                        makanan += 1;
+                        makanan += transaksiData.getNominal();
                     if(transaksiData.getKategori().equals("Tagihan"))
-                        tagihan += 1;
+                        tagihan += transaksiData.getNominal();
                     if(transaksiData.getKategori().equals("Transportasi"))
-                        transportasi += 1;
-                    totalData = totalData + 1;
+                        transportasi += transaksiData.getNominal();
+                    totalData = totalData + transaksiData.getNominal();
                 }
                 if(totalData == 0){
                     persenTempat = 0;
@@ -68,6 +70,9 @@ public class Home_fragment extends Fragment {
                     persenMakanan = (float)makanan / (float)totalData * 100;
                     persenTagihan = (float)tagihan / (float)totalData * 100;
                     persenTransportasi = (float)transportasi / (float)totalData * 100;
+                    jumlahPengeluaran = totalData;
+
+                    jumlahPengeluranView.setText("Jumlah Pengeluaran \nRp."+jumlahPengeluaran);
                 }
 
                 tempatTinggalV.setText(String.format("%.2f", persenTempat) + "%");
