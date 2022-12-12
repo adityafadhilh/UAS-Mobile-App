@@ -77,6 +77,7 @@ id imageview
 id income
 id inputName
 id inputPass
+id jumlahPengeluaran
 id kamera
 id kategori
 id kategoriIncome
@@ -106,7 +107,6 @@ id tagihan
 id tempatTinggal
 id textDaftar
 id textView
-id textView1
 id textView2
 id textView3
 id totalExpense

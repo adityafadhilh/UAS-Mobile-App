@@ -17,13 +17,13 @@
         tools:layout_editor_absoluteY="-25dp">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/jumlahPengeluaran"
             android:layout_width="345dp"
             android:layout_height="75dp"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:background="@drawable/rectangle"
-            android:text="Jumlah Saldo \nRp.3.000.000"
+            android:text="Jumlah Pengeluaran \nRp.3.000.000"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
