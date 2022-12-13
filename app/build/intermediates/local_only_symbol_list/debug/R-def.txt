@@ -50,6 +50,7 @@ drawable profile
 drawable rectangle
 drawable rumah
 drawable tagihan
+id Save
 id addExpense
 id addIncome
 id batal
@@ -77,6 +78,7 @@ id imageview
 id income
 id inputName
 id inputPass
+id ivProfile
 id jumlahPengeluaran
 id kamera
 id kategori
@@ -121,6 +123,7 @@ layout activity_profile
 layout activity_register
 layout activity_transaksi
 layout camera_fragment
+layout edit_profile
 layout fragment_bulan
 layout fragment_expense
 layout fragment_hari

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/profile" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:background="@drawable/edittext_round"
+        android:backgroundTint="@color/teal_200"
+        android:layout_marginBottom="0dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:padding="3dip"
+                android:text="Nama "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_round"
+                android:foregroundTint="#FFFFFF"
+                android:padding="3dip"
+                android:text="John Doe" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:padding="3dip"
+                android:text="Email "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:padding="3dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_round"
+                android:text="johndoe@gmail.com" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:padding="3dip"
+                android:text="Bank "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:padding="3dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_round"
+                android:text="BCA" />
+        </TableRow>
+
+        <TableRow
+
+            android:layout_marginTop="10dp">>
+
+            <TextView
+                android:layout_marginLeft="50dp"
+                android:padding="3dip"
+                android:text="No Telp "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:padding="3dip"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:background="@drawable/edittext_round"
+                android:text="082177775566" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/Save"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Save"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/green"/>
+
+    </TableLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
