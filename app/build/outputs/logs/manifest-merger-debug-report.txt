@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\f30b2b7fb7247542281938d4b6a54780\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\f602c2fef6222da6b52e94731c55dce4\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a13cc8c883281da859936d91ce4a974f\transformed\eazegraph-1.2.5l\AndroidManifest.xml:2:1-15:12
@@ -68,27 +68,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\afher\.gradle\ca
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\31ff2f2467e65a3ebb04f02d2a924a8d\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\afher\.gradle\caches\transforms-3\f843b4a7de16b052c717dae50a82bf69\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\afher\.gradle\caches\transforms-3\b1cab72b7e8820790899c9d90c3e6333\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
 	package
 		INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-44:12
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:1-47:12
 		INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-39:19
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:5:5-42:19
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\f30b2b7fb7247542281938d4b6a54780\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.6.1] C:\Users\afher\.gradle\caches\transforms-3\f30b2b7fb7247542281938d4b6a54780\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
 MERGED from [com.github.blackfizz:eazegraph:1.2.5l] C:\Users\afher\.gradle\caches\transforms-3\a13cc8c883281da859936d91ce4a974f\transformed\eazegraph-1.2.5l\AndroidManifest.xml:12:5-13:19
@@ -191,24 +191,30 @@ ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UA
 		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:29:13-36
 	android:name
 		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:28:13-64
-activity#id.ac.umn.uas_mobileapp.Login
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:9-38:20
+activity#id.ac.umn.uas_mobileapp.ProfileEdit
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:30:9-32:39
 	android:exported
 		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:32:13-36
 	android:name
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:31:13-34
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:31:13-63
+activity#id.ac.umn.uas_mobileapp.Login
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:33:9-41:20
+	android:exported
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:35:13-36
+	android:name
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:33:13-37:29
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:17-69
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:34:25-66
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:39:27-74
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:41:5-67
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:44:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\afher\.gradle\caches\transforms-3\21cbe3e615ead4203b0b71166d2b6f43\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\afher\.gradle\caches\transforms-3\21cbe3e615ead4203b0b71166d2b6f43\transformed\firebase-database-20.1.0\AndroidManifest.xml:25:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\afher\.gradle\caches\transforms-3\f2fc17b3feacafe3879192ebc0c23526\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:22:5-67
@@ -222,9 +228,9 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\afher\.gradle\caches\transforms-3\08e28a4d50eacc034157e0d5d1456504\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\afher\.gradle\caches\transforms-3\08e28a4d50eacc034157e0d5d1456504\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:41:22-64
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:44:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:42:5-79
+ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:45:5-79
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\afher\.gradle\caches\transforms-3\21cbe3e615ead4203b0b71166d2b6f43\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-database:20.1.0] C:\Users\afher\.gradle\caches\transforms-3\21cbe3e615ead4203b0b71166d2b6f43\transformed\firebase-database-20.1.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:21.2.0] C:\Users\afher\.gradle\caches\transforms-3\f2fc17b3feacafe3879192ebc0c23526\transformed\play-services-measurement-api-21.2.0\AndroidManifest.xml:23:5-79
@@ -238,7 +244,7 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:21.2.0] C:\Us
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\afher\.gradle\caches\transforms-3\08e28a4d50eacc034157e0d5d1456504\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.2.0] C:\Users\afher\.gradle\caches\transforms-3\08e28a4d50eacc034157e0d5d1456504\transformed\play-services-measurement-sdk-api-21.2.0\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:42:22-76
+		ADDED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml:45:22-76
 uses-sdk
 INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\afher\OneDrive\Documents\Programming\MobileAppDevelopment\UAS-Mobile-App\app\src\main\AndroidManifest.xml

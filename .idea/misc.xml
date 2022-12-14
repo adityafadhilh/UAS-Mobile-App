@@ -29,16 +29,22 @@
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/activity_profile.xml" value="0.5" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/activity_transaksi.xml" value="0.1" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/camera_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/dialog_signin.xml" value="0.146875" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/edit_profile.xml" value="0.25" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/fragment_bulan.xml" value="0.1" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/fragment_expense.xml" value="0.25" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/fragment_hari.xml" value="0.1" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/fragment_income.xml" value="0.18" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/home_fragment.xml" value="0.14" />
-        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/profile_fragment.xml" value="0.1" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/profile_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/profile_main.xml" value="0.146875" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/profile_main_fragment.xml" value="0.16" />
         <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/transaksi_fragment.xml" value="0.1" />
-        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/menu/bottom_nav_menu.xml" value="0.14722222222222223" />
-        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/menu/bottom_navmenu.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/layout/warning.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/menu/bottom_nav_menu.xml" value="0.18" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/menu/bottom_navmenu.xml" value="0.2" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/menu/calender.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/afher/OneDrive/Documents/Programming/MobileAppDevelopment/UAS-Mobile-App/app/src/main/res/menu/profile_menu.xml" value="0.35658914728682173" />
       </map>
     </option>
   </component>

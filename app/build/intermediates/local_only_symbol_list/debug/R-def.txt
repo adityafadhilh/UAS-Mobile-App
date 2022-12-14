@@ -50,7 +50,6 @@ drawable profile
 drawable rectangle
 drawable rumah
 drawable tagihan
-id Save
 id addExpense
 id addIncome
 id batal
@@ -67,7 +66,9 @@ id container
 id daftar
 id date
 id dateIncome
+id deleteBtn
 id details
+id editBtn
 id expense
 id firstname
 id floatingActionButton
@@ -92,8 +93,11 @@ id makanan
 id minggu
 id nama
 id namaBelakang
+id namaBelakangEdit
 id namaDepan
+id namaDepanEdit
 id nama_pengguna
+id noBtn
 id nominal
 id nominalIncome
 id piechart
@@ -104,6 +108,7 @@ id register_pass
 id relativeLayout
 id saldo
 id saldoIncome
+id saveBtn
 id swipeRefresh
 id tagihan
 id tempatTinggal
@@ -116,6 +121,8 @@ id totalIncome
 id transaksi
 id transportasi
 id type
+id usernameEdit
+id yesBtn
 layout activity_add_transaction
 layout activity_login
 layout activity_main
@@ -135,6 +142,7 @@ layout profile_fragment
 layout show_expense_fragment
 layout show_income_fragment
 layout transaksi_fragment
+layout warning
 menu bottom_nav_menu
 menu bottom_navmenu
 menu bottom_transaksi
@@ -154,6 +162,7 @@ string table_layout_4_open
 string table_layout_4_open_shortcut
 string table_layout_4_save
 string table_layout_4_save_shortcut
+string warning
 style Theme.UAS_MobileApp
 xml backup_rules
 xml data_extraction_rules

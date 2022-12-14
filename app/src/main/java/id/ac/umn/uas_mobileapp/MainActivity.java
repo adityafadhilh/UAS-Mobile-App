@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPostResume() {
         super.onPostResume();
-//        Toast.makeText(this, username, Toast.LENGTH_SHORT).show();
+        getData(username);
     }
 
     public void getData(String username){
