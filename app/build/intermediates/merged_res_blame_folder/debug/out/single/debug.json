@@ -36,12 +36,12 @@
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\layout\\transaksi_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\drawable_ic_baseline_calendar_month_24.xml.flat",
-        "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\drawable\\ic_baseline_calendar_month_24.xml"
-    },
-    {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\drawable_ic_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\drawable\\ic_baseline_calendar_month_24.xml"
     },
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\layout_activity_profile.xml.flat",
@@ -62,6 +62,10 @@
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\layout_profile_fragment.xml.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\layout\\profile_fragment.xml"
+    },
+    {
+        "merged": "id.ac.umn.uas_mobileapp-merged_res-36:/layout_item_view.xml.flat",
+        "source": "id.ac.umn.uas_mobileapp-main-38:/layout/item_view.xml"
     },
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\drawable_rumah.jpg.flat",
@@ -132,10 +136,6 @@
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\drawable\\makanan.jpg"
     },
     {
-        "merged": "id.ac.umn.uas_mobileapp-merged_res-36:/layout_home_fragment.xml.flat",
-        "source": "id.ac.umn.uas_mobileapp-main-38:/layout/home_fragment.xml"
-    },
-    {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\drawable_edittext_round.xml.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\drawable\\edittext_round.xml"
     },
@@ -194,10 +194,6 @@
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\mipmap-mdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
-        "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\layout_dialog_signin.xml.flat",
-        "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\layout\\dialog_signin.xml"
     },
     {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\mipmap-xhdpi_ic_launcher_round.webp.flat",

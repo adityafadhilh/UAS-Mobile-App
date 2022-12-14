@@ -6,8 +6,8 @@ public class TransaksiData{
     private String tipeTransaksi;
     private String kategori;
     private String tipeSaldo;
+    private String tanggal;
     private int nominal;
-    private Date date;
     private int image;
 
     public TransaksiData(){}
@@ -28,16 +28,16 @@ public class TransaksiData{
         this.nominal = nominal;
     }
 
+    public void setTanggal(String tanggal) {
+        this.tanggal = tanggal;
+    }
+
     public void setImage(int image) {
         this.image = image;
     }
 
     public int getImage() {
         return image;
-    }
-
-    public void setDate(Date date) {
-        this.date = date;
     }
 
     public String getTipeTransaksi() {
@@ -56,7 +56,7 @@ public class TransaksiData{
         return nominal;
     }
 
-    public Date getDate() {
-        return date;
+    public String getTanggal() {
+        return tanggal;
     }
 }

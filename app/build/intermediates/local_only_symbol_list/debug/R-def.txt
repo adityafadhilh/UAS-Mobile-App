@@ -111,6 +111,7 @@ id saldoIncome
 id saveBtn
 id swipeRefresh
 id tagihan
+id tanggal
 id tempatTinggal
 id textDaftar
 id textView
