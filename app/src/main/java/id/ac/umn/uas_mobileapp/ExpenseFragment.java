@@ -1,5 +1,8 @@
 package id.ac.umn.uas_mobileapp;
 
+import android.app.DatePickerDialog;
+import android.app.Dialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.ContactsContract;
@@ -9,8 +12,10 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
@@ -19,6 +24,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.util.Calendar;
 import java.util.Date;
 
 public class ExpenseFragment extends Fragment {
@@ -26,8 +32,8 @@ public class ExpenseFragment extends Fragment {
     private Spinner saldoSpinner, kategori;
     private String tipeTransaksi, kategoriInput, saldoInput, username;
     private FloatingActionButton add;
-    private Button dateBtn;
-    private Date date;
+    private static Button dateBtn;
+    private static String date;
     private TransaksiData transaksiData;
     int nominal = 0;
     DatabaseReference ref = FirebaseDatabase.getInstance().getReference().child("Users");
@@ -83,6 +89,7 @@ public class ExpenseFragment extends Fragment {
                 transaksiData.setKategori(kategoriInput);
                 transaksiData.setTipeSaldo(saldoInput);
                 transaksiData.setNominal(nominal);
+                transaksiData.setTanggal(date);
 
                 int img = 0;
 
@@ -125,11 +132,31 @@ public class ExpenseFragment extends Fragment {
     }
 
     public void showDatePickerDialog(View v) {
-        DialogFragment newFragment = new DatePickerFragment();
+        DialogFragment newFragment = new ExpenseFragment.DatePickerFragment();
         newFragment.show(getFragmentManager(), "datePicker");
     }
 
     public void setUsername(String username) {
         this.username = username;
+    }
+
+    public static class DatePickerFragment extends DialogFragment
+            implements DatePickerDialog.OnDateSetListener {
+        @Override
+        public Dialog onCreateDialog(Bundle savedInstanceState) {
+            // Use the current date as the default date in the picker
+            final Calendar c = Calendar.getInstance();
+            int year = c.get(Calendar.YEAR);
+            int month = c.get(Calendar.MONTH);
+            int day = c.get(Calendar.DAY_OF_MONTH);
+            // Create a new instance of DatePickerDialog and return it
+            return new DatePickerDialog(requireContext(), this, year, month, day);
+        }
+
+        public void onDateSet(DatePicker view, int year, int month, int day) {
+            // Do something with the date chosen by the user
+            date = day + "/" + (month+1) + "/" + year;
+            dateBtn.setText(date);
+        }
     }
 }

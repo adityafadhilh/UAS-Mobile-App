@@ -31,6 +31,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
         holder.typeView.setText(items.get(position).getKategori());
         holder.nominalView.setText(String.valueOf(items.get(position).getNominal()));
         holder.imageView.setImageResource(items.get(position).getImage());
+        holder.dateView.setText(String.valueOf(items.get(position).getTanggal()));
     }
 
     @Override
