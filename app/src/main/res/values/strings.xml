@@ -22,4 +22,7 @@
         <item>Hadiah</item>
         <item>Investasi</item>
     </string-array>
+    <string name="warning">
+        Are you sure you want to delete your account? once deleted, it cannot be recovered
+    </string>
 </resources>

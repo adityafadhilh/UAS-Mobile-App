@@ -23,29 +23,29 @@
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
             android:background="@drawable/rectangle"
-            android:text="Jumlah Pengeluaran \nRp.3.000.000"
+            android:text="Jumlah Pengeluaran \nRp.0"
             android:textAlignment="center"
             android:textColor="@color/black"
             android:textSize="20sp"
             android:padding="10dp"/>
 
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:layout_marginStart="20dp"
-            android:text="Laporan Keuangan"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:textStyle="normal"/>
+<!--        <TextView-->
+<!--            android:id="@+id/textView2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:text="Laporan Keuangan"-->
+<!--            android:textColor="@color/black"-->
+<!--            android:textSize="20sp"-->
+<!--            android:textStyle="normal"/>-->
 
-        <com.google.android.material.navigation.NavigationView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            app:menu="@menu/calender" />
+<!--        <com.google.android.material.navigation.NavigationView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_gravity="center"-->
+<!--            app:menu="@menu/calender" />-->
 
         <LinearLayout
             android:layout_width="match_parent"

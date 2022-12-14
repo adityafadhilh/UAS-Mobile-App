@@ -28,6 +28,9 @@
             android:name="id.ac.umn.uas_mobileapp.MainActivity"
             android:exported="true" />
         <activity
+            android:name="id.ac.umn.uas_mobileapp.ProfileEdit"
+            android:exported="true" />
+        <activity
             android:name=".Login"
             android:exported="true">
             <intent-filter>

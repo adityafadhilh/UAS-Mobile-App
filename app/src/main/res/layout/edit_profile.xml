@@ -36,18 +36,21 @@
             android:layout_marginTop="30dp">
 
             <TextView
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="30dp"
                 android:padding="3dip"
-                android:text="Nama "
+                android:text="Nama Pengguna"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
-                android:layout_marginLeft="50dp"
+                android:id="@+id/usernameEdit"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="50dp"
                 android:background="@drawable/edittext_round"
                 android:foregroundTint="#FFFFFF"
                 android:padding="3dip"
+                android:inputType="none"
+                android:enabled="false"
                 android:text="John Doe" />
 
         </TableRow>
@@ -56,15 +59,16 @@
             android:layout_marginTop="10dp">
 
             <TextView
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="30dp"
                 android:padding="3dip"
-                android:text="Email "
+                android:text="Nama Depan"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/namaDepanEdit"
                 android:padding="3dip"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="50dp"
                 android:background="@drawable/edittext_round"
                 android:text="johndoe@gmail.com" />
@@ -74,41 +78,23 @@
             android:layout_marginTop="10dp">
 
             <TextView
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="30dp"
                 android:padding="3dip"
-                android:text="Bank "
+                android:text="Nama Belakang"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/namaBelakangEdit"
                 android:padding="3dip"
-                android:layout_marginLeft="50dp"
+                android:layout_marginLeft="30dp"
                 android:layout_marginRight="50dp"
                 android:background="@drawable/edittext_round"
                 android:text="BCA" />
         </TableRow>
 
-        <TableRow
-
-            android:layout_marginTop="10dp">>
-
-            <TextView
-                android:layout_marginLeft="50dp"
-                android:padding="3dip"
-                android:text="No Telp "
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:padding="3dip"
-                android:layout_marginLeft="50dp"
-                android:layout_marginRight="50dp"
-                android:background="@drawable/edittext_round"
-                android:text="082177775566" />
-        </TableRow>
-
         <Button
-            android:id="@+id/Save"
+            android:id="@+id/saveBtn"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginTop="35dp"
@@ -117,6 +103,17 @@
             android:text="Save"
             android:textColor="@color/black"
             android:backgroundTint="@color/green"/>
+
+        <Button
+            android:id="@+id/deleteBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Delete"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/red"/>
 
     </TableLayout>
 

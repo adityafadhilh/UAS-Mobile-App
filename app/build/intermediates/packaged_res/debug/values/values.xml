@@ -56,6 +56,9 @@
     <string name="table_layout_4_open_shortcut">tabel_lay_4</string>
     <string name="table_layout_4_save">tabel_lay_4</string>
     <string name="table_layout_4_save_shortcut">tabel_lay_4</string>
+    <string name="warning">
+        Are you sure you want to delete your account? once deleted, it cannot be recovered
+    </string>
     <style name="Theme.UAS_MobileApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

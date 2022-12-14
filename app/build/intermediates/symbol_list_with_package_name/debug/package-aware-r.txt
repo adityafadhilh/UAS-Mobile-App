@@ -2640,7 +2640,6 @@ id SHOW_ALL
 id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
-id Save
 id TOP_END
 id TOP_START
 id accelerate
@@ -2793,6 +2792,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteBtn
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -2824,6 +2824,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editBtn
 id edit_query
 id edittext_dropdown_editable
 id edittext_dropdown_noneditable
@@ -2974,7 +2975,9 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id nama
 id namaBelakang
+id namaBelakangEdit
 id namaDepan
+id namaDepanEdit
 id nama_pengguna
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -2986,6 +2989,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id noBtn
 id noScroll
 id noState
 id nominal
@@ -3036,6 +3040,7 @@ id rounded
 id row_index_key
 id saldo
 id saldoIncome
+id saveBtn
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3164,6 +3169,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id usernameEdit
 id vertical_only
 id view_offset_helper
 id view_transition
@@ -3182,6 +3188,7 @@ id wrap_content
 id wrap_content_constrained
 id x_left
 id x_right
+id yesBtn
 id zero_corner_chip
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
@@ -3385,6 +3392,7 @@ layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
 layout transaksi_fragment
+layout warning
 menu bottom_nav_menu
 menu bottom_navmenu
 menu bottom_transaksi
@@ -3546,6 +3554,7 @@ string table_layout_4_open
 string table_layout_4_open_shortcut
 string table_layout_4_save
 string table_layout_4_save_shortcut
+string warning
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow
