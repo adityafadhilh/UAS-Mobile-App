@@ -73,8 +73,8 @@ public class MainActivity extends AppCompatActivity {
 //                        startActivity(new Intent(getApplicationContext(),Transaksi.class).putExtra("user", username));
                         return true;
                     case R.id.kamera:
-//                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
-                        useCamera();
+                        getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
+//                        useCamera();
                         return true;
                     case R.id.profile:
                         profileFragment.setUsername(username);
