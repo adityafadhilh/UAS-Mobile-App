@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 import androidx.core.app.ActivityCompat;
@@ -48,6 +49,17 @@ public class Camera_fragment extends Fragment {
             }
         });
 
+        String path = Environment.getExternalStorageDirectory().toString();
+        Log.d("Files", "Path: " + path);
+        File directory = new File(path);
+        File[] files = directory.listFiles();
+        Log.d("Files", "Size: "+ files.length);
+        if(files.length != 0){
+            for (int i = 0; i < files.length; i++)
+            {
+                Log.d("Files", "FileName:" + files[i].getName());
+            }
+        }
         return view;
     }
 
@@ -83,6 +95,7 @@ public class Camera_fragment extends Fragment {
                 Uri contentUri = Uri.fromFile(f);
                 mediaScanIntent.setData(contentUri);
                 getActivity().sendBroadcast(mediaScanIntent);
+                Toast.makeText(getContext(), "Gambar berhasil disimpan", Toast.LENGTH_SHORT).show();
             }
         }
     }
@@ -125,4 +138,12 @@ public class Camera_fragment extends Fragment {
             }
         }
     }
+
+//    private void galleryAddPic() {
+//        Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
+//        File f = new File(currentPhotoPath);
+//        Uri contentUri = Uri.fromFile(f);
+//        mediaScanIntent.setData(contentUri);
+//        getActivity().sendBroadcast(mediaScanIntent);
+//    }
 }
