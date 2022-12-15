@@ -13,6 +13,7 @@ color color_two
 color color_white
 color crimson
 color cyan
+color five
 color four
 color green
 color grey
@@ -32,8 +33,11 @@ drawable akomodasi
 drawable edittext_round
 drawable expense
 drawable ic_baseline_add_24
+drawable ic_baseline_attach_money_24
+drawable ic_baseline_auto_graph_24
 drawable ic_baseline_calendar_month_24
 drawable ic_baseline_calendar_today_24
+drawable ic_baseline_card_giftcard_24
 drawable ic_baseline_home_24
 drawable ic_baseline_insert_drive_file_24
 drawable ic_baseline_person_24
@@ -43,6 +47,7 @@ drawable ic_launcher_foreground
 drawable income
 drawable line
 drawable logo
+drawable logo_removebg
 drawable makanan
 drawable minus
 drawable plus
@@ -59,6 +64,7 @@ id btnIncome
 id bulan
 id calender_month
 id calender_week
+id cameraBtn
 id cardViewGraph
 id confirm_pass
 id contain
@@ -68,6 +74,7 @@ id date
 id dateIncome
 id deleteBtn
 id details
+id displayImageView
 id editBtn
 id expense
 id firstname
@@ -130,6 +137,7 @@ layout activity_main
 layout activity_profile
 layout activity_register
 layout activity_transaksi
+layout camera
 layout camera_fragment
 layout edit_profile
 layout fragment_bulan

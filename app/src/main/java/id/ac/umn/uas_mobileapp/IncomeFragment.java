@@ -95,14 +95,12 @@ public class IncomeFragment extends Fragment {
 
                 int img = 0;
 
-                if(kategoriInput.equals("Transportasi"))
-                    img = R.drawable.akomodasi;
-                if(kategoriInput.equals("Tempat Tinggal"))
-                    img = R.drawable.rumah;
-                if(kategoriInput.equals("Makanan"))
-                    img = R.drawable.makanan;
-                if(kategoriInput.equals("Tagihan"))
-                    img = R.drawable.tagihan;
+                if(kategoriInput.equals("Gaji"))
+                    img = R.drawable.ic_baseline_attach_money_24;
+                if(kategoriInput.equals("Hadiah"))
+                    img = R.drawable.ic_baseline_card_giftcard_24;
+                if(kategoriInput.equals("Investasi"))
+                    img = R.drawable.ic_baseline_auto_graph_24;
 
                 transaksiData.setImage(img);
 

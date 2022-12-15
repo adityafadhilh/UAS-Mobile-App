@@ -1329,6 +1329,7 @@ color dim_foreground_material_dark
 color dim_foreground_material_light
 color error_color_material_dark
 color error_color_material_light
+color five
 color foreground_material_dark
 color foreground_material_light
 color four
@@ -2556,8 +2557,11 @@ drawable expense
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_baseline_add_24
+drawable ic_baseline_attach_money_24
+drawable ic_baseline_auto_graph_24
 drawable ic_baseline_calendar_month_24
 drawable ic_baseline_calendar_today_24
+drawable ic_baseline_card_giftcard_24
 drawable ic_baseline_home_24
 drawable ic_baseline_insert_drive_file_24
 drawable ic_baseline_person_24
@@ -2576,6 +2580,7 @@ drawable ic_mtrl_chip_close_circle
 drawable income
 drawable line
 drawable logo
+drawable logo_removebg
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2740,6 +2745,7 @@ id cache_measures
 id calender_month
 id calender_week
 id callMeasure
+id cameraBtn
 id cancel_button
 id cardViewGraph
 id carryVelocity
@@ -2809,6 +2815,7 @@ id disableIntraAutoTransition
 id disablePostScroll
 id disableScroll
 id disjoint
+id displayImageView
 id dragAnticlockwise
 id dragClockwise
 id dragDown
@@ -3290,6 +3297,7 @@ layout activity_main
 layout activity_profile
 layout activity_register
 layout activity_transaksi
+layout camera
 layout camera_fragment
 layout custom_dialog
 layout design_bottom_navigation_item

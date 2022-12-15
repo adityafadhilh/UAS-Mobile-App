@@ -1328,6 +1328,7 @@ int color dim_foreground_material_dark 0x7f06006b
 int color dim_foreground_material_light 0x7f06006c
 int color error_color_material_dark 0x7f06006d
 int color error_color_material_light 0x7f06006e
+int color five 0x7f060277
 int color foreground_material_dark 0x7f06006f
 int color foreground_material_light 0x7f060070
 int color four 0x7f060071
@@ -2555,8 +2556,11 @@ int drawable expense 0x7f08007a
 int drawable googleg_disabled_color_18 0x7f08007b
 int drawable googleg_standard_color_18 0x7f08007c
 int drawable ic_baseline_add_24 0x7f08007d
+int drawable ic_baseline_attach_money_24 0x7f0800c6
+int drawable ic_baseline_auto_graph_24 0x7f0800c7
 int drawable ic_baseline_calendar_month_24 0x7f08007e
 int drawable ic_baseline_calendar_today_24 0x7f08007f
+int drawable ic_baseline_card_giftcard_24 0x7f0800c8
 int drawable ic_baseline_home_24 0x7f080080
 int drawable ic_baseline_insert_drive_file_24 0x7f080081
 int drawable ic_baseline_person_24 0x7f080082
@@ -2575,6 +2579,7 @@ int drawable ic_mtrl_chip_close_circle 0x7f08008e
 int drawable income 0x7f08008f
 int drawable line 0x7f080090
 int drawable logo 0x7f080091
+int drawable logo_removebg 0x7f0800c9
 int drawable m3_appbar_background 0x7f080092
 int drawable m3_popupmenu_background_overlay 0x7f080093
 int drawable m3_radiobutton_ripple 0x7f080094
@@ -2739,6 +2744,7 @@ int id cache_measures 0x7f09006c
 int id calender_month 0x7f09006d
 int id calender_week 0x7f09006e
 int id callMeasure 0x7f09006f
+int id cameraBtn 0x7f090233
 int id cancel_button 0x7f090070
 int id cardViewGraph 0x7f090071
 int id carryVelocity 0x7f090072
@@ -2808,6 +2814,7 @@ int id disableIntraAutoTransition 0x7f0900b1
 int id disablePostScroll 0x7f0900b2
 int id disableScroll 0x7f0900b3
 int id disjoint 0x7f0900b4
+int id displayImageView 0x7f090234
 int id dragAnticlockwise 0x7f0900b5
 int id dragClockwise 0x7f0900b6
 int id dragDown 0x7f0900b7
@@ -3289,6 +3296,7 @@ int layout activity_main 0x7f0c001e
 int layout activity_profile 0x7f0c001f
 int layout activity_register 0x7f0c0020
 int layout activity_transaksi 0x7f0c0021
+int layout camera 0x7f0c008a
 int layout camera_fragment 0x7f0c0022
 int layout custom_dialog 0x7f0c0023
 int layout design_bottom_navigation_item 0x7f0c0024
