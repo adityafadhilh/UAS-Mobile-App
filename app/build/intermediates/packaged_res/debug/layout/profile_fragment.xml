@@ -22,7 +22,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                android:src="@drawable/profile" />
+                android:src="@drawable/profilepolos" />
 
             <TableLayout
                 android:layout_width="match_parent"

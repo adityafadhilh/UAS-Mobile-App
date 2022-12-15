@@ -52,6 +52,7 @@ drawable makanan
 drawable minus
 drawable plus
 drawable profile
+drawable profilepolos
 drawable rectangle
 drawable rumah
 drawable tagihan
