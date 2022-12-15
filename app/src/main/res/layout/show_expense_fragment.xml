@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_height="90dp"
         android:background="@drawable/rectangle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,10 +20,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
         android:text="Jumlah Pengeluaran"
         android:textColor="#000000"
         android:textSize="16sp"

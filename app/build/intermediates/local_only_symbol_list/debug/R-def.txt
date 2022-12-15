@@ -175,3 +175,4 @@ string warning
 style Theme.UAS_MobileApp
 xml backup_rules
 xml data_extraction_rules
+xml file_paths
