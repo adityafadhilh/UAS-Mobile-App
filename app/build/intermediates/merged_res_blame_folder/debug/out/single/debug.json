@@ -168,6 +168,10 @@
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\drawable\\akomodasi.jpg"
     },
     {
+        "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\xml\\file_paths.xml"
+    },
+    {
         "merged": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-merged_res-36:\\drawable_line.xml.flat",
         "source": "C:\\Users\\afher\\.gradle\\daemon\\7.4\\id.ac.umn.uas_mobileapp-main-38:\\drawable\\line.xml"
     },
