@@ -70,11 +70,10 @@ public class MainActivity extends AppCompatActivity {
                         actionBar.setTitle("Transaksi");
                         transaksiFragment.setUsername(username);
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,transaksiFragment).commit();
-//                        startActivity(new Intent(getApplicationContext(),Transaksi.class).putExtra("user", username));
                         return true;
                     case R.id.kamera:
+                        actionBar.setTitle("Kamera");
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,cameraFragment).commit();
-//                        useCamera();
                         return true;
                     case R.id.profile:
                         profileFragment.setUsername(username);
@@ -82,12 +81,6 @@ public class MainActivity extends AppCompatActivity {
                         profileFragment.setlName(lName);
                         actionBar.setTitle("Profile");
                         getSupportFragmentManager().beginTransaction().replace(R.id.container,profileFragment).commit();
-//                        Bundle data = new Bundle();
-//                        data.putString("firstName",fName);
-//                        data.putString("lastName", lName);
-//                        data.putString("username", username);
-//                        startActivity(new Intent(getApplicationContext(),Profile.class).putExtras(data));
-//                        overridePendingTransition(0,0);
                         return true;
                 }
                 return false;
