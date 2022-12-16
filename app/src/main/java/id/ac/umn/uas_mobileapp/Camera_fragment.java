@@ -49,17 +49,19 @@ public class Camera_fragment extends Fragment {
             }
         });
 
-        String path = Environment.getExternalStorageDirectory().toString();
-        Log.d("Files", "Path: " + path);
-        File directory = new File(path);
-        File[] files = directory.listFiles();
-        Log.d("Files", "Size: "+ files.length);
-        if(files.length != 0){
-            for (int i = 0; i < files.length; i++)
-            {
-                Log.d("Files", "FileName:" + files[i].getName());
-            }
-        }
+        //error
+
+//        String path = Environment.getExternalStorageDirectory().toString();
+//        Log.d("Files", "Path: " + path);
+//        File directory = new File(path);
+//        File[] files = directory.listFiles();
+//        if(files.length != 0){
+//            Log.d("Files", "Size: "+ files.length);
+//            for (int i = 0; i < files.length; i++)
+//            {
+//                Log.d("Files", "FileName:" + files[i].getName());
+//            }
+//        }
         return view;
     }
 

@@ -6,28 +6,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="Camera_fragment">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <ImageView
-            android:id="@+id/displayImageView"
-            android:layout_width="300dp"
-            android:layout_height="300dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="100dp"
-            app:srcCompat="@drawable/ic_launcher_background" />
+            <ImageView
+                android:id="@+id/displayImageView"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                app:srcCompat="@drawable/ic_launcher_background" />
 
-        <Button
-            android:id="@+id/cameraBtn"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="40dp"
-            android:backgroundTint="@color/light_blue"
-            android:text="Camera" />
-    </LinearLayout>
-
+            <Button
+                android:id="@+id/cameraBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/light_blue"
+                android:text="Camera" />
+        </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>
